@@ -1,6 +1,6 @@
 type;title;code;description;vars;rounds;comment
 attack;Code Freeze;"while (turns < 2) {<br>&nbsp;&nbsp;freezeAllVars();<br>}";Blocks all vars for <br>2 turns.;"&#10063;&#10063;";"&#9844;";"<div style='margin-top: -20px'>Coffee break!</div>"
-attack;Var Freeze;"while (turns < 2) {<br>&nbsp;&nbsp;freezeOneVar();<br>}";Blocks 1 var for <br>2 turns.;"&#10063;";"&#9844;";"<div style='margin-top: -20px'>Are you still using CSV?</div>"
+attack;Var Freeze;"while (turns < 2) {<br>&nbsp;&nbsp;freezeOneVar();<br>}";Blocks 1 var for <br>2 turns.;"&#10063;";"&#9844;";"<div style='margin-top: -20px'>Are you still using CVS?</div>"
 attack;Legacy code;;"<div style='margin-top: -30px'>Only allows play <br>+/-1 or +/-2 values on your vars.</div>";"&#10063;&#10063;";"&#9850;";"Take your time to enjoy the moment :)"
 attack;Condition;"if (varA &lt; varB) {<br>&nbsp;&nbsp;cancelCard();<br>}";"Forbids any card that <br>is not helping to fix this.";"&#10063;&#10063;";"&#9850;";
 attack;Condition;"if (varB &lt; varA) {<br>&nbsp;&nbsp;cancelCard();<br>}";"Forbids any card that <br>is not helping to fix this.";"&#10063;&#10063;";"&#9850;";
