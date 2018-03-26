@@ -1,0 +1,109 @@
+.card {
+    margin: 0.5mm;
+    border-style: solid;
+    border-width: 0.8mm;
+    border-color: black;
+    border-radius: 3mm;
+    width: 63mm;
+    height: 88mm;
+}
+
+header, section, footer {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    min-height: 20%;
+    font-size: 0.7em;
+}
+section {
+    min-height: 55%;
+    width: 83%;
+    font-size: 1.4em;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+footer {
+    min-height: 25%;
+}
+
+.mycode {
+    line-height: 20px;
+    text-align: left;
+    font-family: monospace;
+    font-size: 0.9em;
+    margin: 0 0 30px;
+    opacity: 0.85;
+}
+.simpleCode {
+    margin-top: 20px;
+    text-align: center;
+}
+.description {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0.8em;
+    line-height: 30px;
+    margin:0;
+}
+.or {
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    opacity: 0.75;
+}
+.comment {
+    padding-top: 30px;
+    font-style: italic;
+    opacity: 0.8;
+    font-size: 0.75em;
+    line-height: 20px;
+}
+.link {
+    font-size: 0.7em;
+}
+
+/* card types */
+
+.attack {
+    //background-color: #f07724;
+    //background: linear-gradient(-45deg, rgba(240, 101, 40, 0.71) 0%, #f06528 40%), url(img/attack.png);
+    background: linear-gradient(-45deg, rgba(240, 101, 40, 0.71) 0%, #f06528 25%);
+    color: #f4f4f4;
+}
+.defense {
+    //background-color: #07a050;
+    background: linear-gradient(-45deg, rgba(7, 160, 80, 0.7) 0%, #07a050 25%);
+    color: #f4f4f4;
+}
+.bonus {
+    //background-color: #008bd6;
+    background: linear-gradient(-45deg, rgba(0, 139, 214, 0.7) 0%, #008bd6 25%);
+    color: #f4f4f4;
+}
+.value {
+    //background-color: #e8e946;
+    background: linear-gradient(-45deg, rgba(232, 233, 70, 0.7) 0%, #e8e946 25%);
+    color: #3c3c3c;
+}
+
+
+
+/* pictos */
+
+.vars {
+    font-size: 3em;
+    width: 40%;
+    float: left;
+}
+.rounds {
+    margin-top: 5px;
+    font-size: 2em;
+    width: 40%;
+    float: right;
+}

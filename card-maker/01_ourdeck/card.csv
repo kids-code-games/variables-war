@@ -1,0 +1,26 @@
+type;title;code;description;vars;rounds;comment
+attack;Code Freeze;"while (turns < 2) {<br>&nbsp;&nbsp;freezeAllVars();<br>}";Blocks all vars for <br>2 turns.;"&#10063;&#10063;";"&#9844;";"<div style='margin-top: -20px'>Coffee break!</div>"
+attack;Var Freeze;"while (turns < 2) {<br>&nbsp;&nbsp;freezeOneVar();<br>}";Blocks 1 var for <br>2 turns.;"&#10063;";"&#9844;";"<div style='margin-top: -20px'>Are you still using CSV?</div>"
+attack;Legacy code;;"<div style='margin-top: -30px'>Only allows play <br>+/-1 or +/-2 values on your vars.</div>";"&#10063;&#10063;";"&#9850;";"Take your time to enjoy the moment :)"
+attack;Condition;"if (varA &lt; varB) {<br>&nbsp;&nbsp;cancelCard();<br>}";"Forbids any card that <br>is not helping to fix this.";"&#10063;&#10063;";"&#9850;";
+attack;Condition;"if (varB &lt; varA) {<br>&nbsp;&nbsp;cancelCard();<br>}";"Forbids any card that <br>is not helping to fix this.";"&#10063;&#10063;";"&#9850;";
+attack;Memory Leak;"if (var % 3 == 0) {<br>&nbsp;&nbsp;var = 0;<br>}";Reset to 0 the var if its values is a multiple of 3.;"&#10063;";"&#9850;";
+defense;Rollback;;Remove last card put on the selected game.;;;"We know, we know, life is unfair, thanks Calimero!"
+defense;Refactoring;;Remove a <br>"Legacy code" or "Condition" card.;;;"Cheers!"
+defense;Firewall;;"Return any attack<br>to its sender's game!";;;"No need to be sorry :)"
+bonus;Pair programming;;<div style='margin-top: -30px'>Draw 3 cards with another player and agree on how to use them or discard everything!</div>;;;"He mate!"
+bonus;Pull request;git checkout varA && git rebase varB<div class=or>or</div>git checkout varB && git rebase varA;Merge (rebase)<br>vars A and B;;;
+bonus;Continuous deployment;"if (var % 7 == 0) {<br>&nbsp;&nbsp;playTwice();<br>}";<div style='margin-top: -20px'>Play twice when the selected var is a<br>multiple of 7.</div>;"&#10063;";"&#9850;";
+bonus;Feature Flipping;"<center>featureOff = true;</center>";"Delete 1 card anywhere<br>(any vars, any hands).";;;No mercy!
+bonus;Open Source;;"<div style='margin-top: -30px'>All players put their hand face up on the table for 2 rounds.</div>";;"&#9844;";"...and star us on Github :)<div class=link>http://github.com/code-with-cards</div>"
+bonus;Mob Programming;;<div style='margin-top: -30px'>All cards change hands in the direction decided by the card player</div>;;;"He guys, let's work <br>as a team!"
+value;Increment by 1;"<div class=simpleCode>var += 1;</div>";"Increment one of <br>your var by 1.";;;42 here we come!
+value;Increment by 2;"<div class=simpleCode>var += 2;</div>";Increment one of <br>your var by 2.;;;
+value;Increment by 3;"<div class=simpleCode>var += 3;</div>";Increment one of <br>your var by 3.;;;
+value;Increment by 5;"<div class=simpleCode>var += 5;</div>";Increment one of <br>your var by 5.;;;
+value;Increment by 8;"<div class=simpleCode>var += 8;</div>";Increment one of <br>your var by 8.;;;
+value;Decrement by 1;"<div class=simpleCode>var -= 1;</div>";Decrement one of <br>your var by 1.;;;
+value;Decrement by 2;"<div class=simpleCode>var -= 2;</div>";Decrement one of <br>your var by 2.;;;
+value;Repeat 2;"2 times {<br>&nbsp;&nbsp;...<br>}";The next yellow card is valued twice.;;;
+value;Repeat 3;"3 times {<br>&nbsp;&nbsp;...<br>}";The next yellow card is valued three times.;;;Reusing is caring!
+value;Repeat ${PlayersCount};"val n = nbPlayers;<br>(1 to n).foreach {<br>&nbsp;&nbsp;...<br>}";The next yellow card is valued as many times as there are players in the game.;;;
