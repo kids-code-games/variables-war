@@ -9,7 +9,7 @@ defense;Rollback;;Remove last card put on the selected game.;;;"We know, we know
 defense;Refactoring;;Remove a <br>"Legacy code" or "Condition" card.;;;"Cheers!"
 defense;Firewall;;"Return any attack<br>to its sender's game!";;;"No need to be sorry :)"
 bonus;Pair programming;;<div style='margin-top: -30px'>Draw 3 cards with another player and agree on how to use them or discard everything!</div>;;;"He mate!"
-bonus;Pull request;git checkout varA && git rebase varB<div class=or>or</div>git checkout varB && git rebase varA;Merge (rebase)<br>vars A and B;;;
+bonus;Pull request;<div style='margin-top: -30px'>git checkout varA && git rebase varB<div class=or>or</div>git checkout varB && git rebase varA</div>;<div style='margin-top: -20px'>Merge (rebase)<br>vars A and B. Fusion your 2 vars in 1.</div>;;;
 bonus;Continuous deployment;"if (var % 7 == 0) {<br>&nbsp;&nbsp;playTwice();<br>}";<div style='margin-top: -20px'>Play twice when the selected var is a<br>multiple of 7.</div>;"&#10063;";"&#9850;";
 bonus;Feature Flipping;"<center>featureOff = true;</center>";"Delete 1 card anywhere<br>(any vars, any hands).";;;No mercy!
 bonus;Open Source;;"<div style='margin-top: -30px'>All players put their hand face up on the table for 2 rounds.</div>";;"&#9844;";"...and star us on Github :)<div class=link>http://github.com/code-with-cards</div>"
@@ -21,6 +21,6 @@ value;Increment by 5;"<div class=simpleCode>var += 5;</div>";Increment one of <b
 value;Increment by 8;"<div class=simpleCode>var += 8;</div>";Increment one of <br>your var by 8.;;;
 value;Decrement by 1;"<div class=simpleCode>var -= 1;</div>";Decrement one of <br>your var by 1.;;;
 value;Decrement by 2;"<div class=simpleCode>var -= 2;</div>";Decrement one of <br>your var by 2.;;;
-value;Repeat 2;"2 times {<br>&nbsp;&nbsp;...<br>}";The next yellow card is valued twice.;;;
-value;Repeat 3;"3 times {<br>&nbsp;&nbsp;...<br>}";The next yellow card is valued three times.;;;Reusing is caring!
+value;Repeat 2;"&nbsp;&nbsp;&nbsp;&nbsp;2 times {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...<br>&nbsp;&nbsp;&nbsp;&nbsp;}";The next yellow card is valued twice.;;;
+value;Repeat 3;"&nbsp;&nbsp;&nbsp;&nbsp;3 times {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...<br>&nbsp;&nbsp;&nbsp;&nbsp;}";The next yellow card is valued three times.;;;Reusing is caring!
 value;Repeat ${PlayersCount};"val n = nbPlayers;<br>(1 to n).foreach {<br>&nbsp;&nbsp;...<br>}";The next yellow card is valued as many times as there are players in the game.;;;

@@ -1,4 +1,4 @@
-This directory contains a tool do generate HTML cards.
+#  This directory contains a tool do generate HTML cards.
 
 Use ./run.sh to start it.
 
