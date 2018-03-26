@@ -1,15 +1,11 @@
 # Attacks
 
 ## Code Freeze 
-```
-while (turns < 2) {freezeAllVars();}
-```
+
 Blocks all vars for 2 turns.
 
 ## Var Freeze
-```
-while (turns < 2) {freezeOneVar();}
-```
+
 Blocks 1 var for 2 turns.
 
 ## Legacy code
@@ -18,21 +14,10 @@ Only allows to play +/-1 or +/-2 values on your vars.
 
 ## Condition
 
-```
-if (varA > varB) {cancelCard();}
-```
-
-Forbids any card that is breaking this condition. If the condition is already broken, then forbids any card that is not going towards its resoluton.
-
-```
-if (varB < varA) {cancelCard();}
-```
-Forbids any card that is breaking this condition. If the condition is already broken, then forbids any card that is not going towards its resoluton.
+- (varB < varA): Forbids any card that is breaking this condition. If the condition is already broken, then forbids any card that is not going towards its resoluton.
+- (varA < varB): Forbids any card that is breaking this condition. If the condition is already broken, then forbids any card that is not going towards its resoluton.
 
 ## Memory Leak
-
-```
-if (var % 3 == 0) {var = 0;}
 
 Reset to 0 the var if its values is a multiple of 3.
 
@@ -57,21 +42,11 @@ Return any attack to its sender's game.
 Draw 3 cards with another player and agree on how to use them or discard everything!
 
 ## Pull request
-```
-git checkout varA && git rebase varB
-```
-or
-```
-git checkout varB && git rebase varA
-```
-Merge (rebase) vars A and B
+
+Merge (rebase) vars A and B. So either move all your Value cards from A on top of B, or from B on top of A.
 
 ## Continuous deployment
 
-```
-if (var % 7 == 0) {playTwice();}
-
-```
 Play twice when the selected var is a multiple of 7.
 
 ## Feature Flipping
