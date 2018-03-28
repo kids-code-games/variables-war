@@ -10,4 +10,4 @@ TODO
 
 ### The rules
 
-TODO
+The game rules are [described here](GameRules.md).
