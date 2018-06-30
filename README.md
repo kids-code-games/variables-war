@@ -15,7 +15,7 @@
     <img src="./images/Contribure-here-blue.svg" alt="Variables War Contributions" />
 </a>
 <a href="#todo">
-    <img src="Download me-for free.svg" alt="Variables War Download" />
+    <img src="./images/Download-me-for free.svg" alt="Variables War Download" />
 </a>
 </div>
 
