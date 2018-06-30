@@ -7,14 +7,13 @@
 </p>
 
 
-<div>
-    <a href="https://kids-code-games.github.io/variables-war/">
-        <img src="./images/GitHub-pages.svg" alt="Variables War Card Game GitHubPages" />
-    </a>
-    
-    <a href="https://github.com/kids-code-games/variables-war/issues">
-        <img src="./images/Contribure-here-blue.svg" alt="Variables War Contributions" />
-    </a>
+<div align="center">
+<a href="https://kids-code-games.github.io/variables-war/">
+    <img src="./images/GitHub-pages.svg" alt="Variables War Card Game GitHubPages" />
+</a>
+<a href="https://github.com/kids-code-games/variables-war/issues">
+    <img src="./images/Contribure-here-blue.svg" alt="Variables War Contributions" />
+</a>
 </div>
 
 
