@@ -119,8 +119,9 @@ We need help in many ways:
 
 We are waiting your [suggestions / questions / feedbacks](https://github.com/kids-code-games/variables-war/issues)!*
 
-
+<div align="center">
 <img width="200" src="./images/pull-request.gif" alt="Variables War Card Game">
+</div>   
    
 
 # License
