@@ -6,7 +6,7 @@
     </a>
 </p>
 
-<div align="center'>
+<div align="center">
 <img height="150" src="./images/card-increment.jpeg" />
 <img height="150" src="./images/card-legacy.jpeg" />
 <img height="150" src="./images/card-loop.jpeg" />
@@ -87,7 +87,7 @@ When it's your turn, you start drawing 2 cards, then play 2 cards to always have
 
 * *bonus*: Game changer cards! You will definitively love those ones!
 
-<div align="center'>
+<div align="center">
 <img height="150" src="./images/card-increment.jpeg" />
 <img height="150" src="./images/card-legacy.jpeg" />
 <img height="150" src="./images/card-loop.jpeg" />
