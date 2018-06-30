@@ -93,7 +93,7 @@ More detailed [game rules are available here](./GameRules.md).
 
 
 <a href="http://htmlpreview.github.io/?https://raw.githubusercontent.com/kids-code-games/variables-war/master/card-maker/01_ourdeck/card-GENERATED.html">
-<img src="./images/printme.png" alt="print me and start to play variable wars" />
+<img width="100" style="margin-left: 200px" src="./images/printme.png" alt="print me and start to play variable wars" />
 </a>
 
 * *print your own deck for free and play!*, [just print this page](http://htmlpreview.github.io/?https://raw.githubusercontent.com/kids-code-games/variables-war/master/card-maker/01_ourdeck/card-GENERATED.html)
