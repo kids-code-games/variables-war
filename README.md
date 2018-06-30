@@ -2,6 +2,9 @@
 
 [Github pages of this project](https://kids-code-games.github.io/variables-war/)
 
+![Image](./images/viariables-war.png)
+
+
 ![Image](https://www.anthonyherve.fr/uploads/images/855b41d0232d6b2a4ba39f8625ef7644bf18e394.gif)
 
 ### What is this game about?
