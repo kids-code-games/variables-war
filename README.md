@@ -102,9 +102,9 @@ More detailed [game rules are available here](./GameRules.md).
 
 | Physical Deck | Printed Deck |
 |---------------|--------------|
-| *order a physical deck (coming soon)* please starthe project so we could ping you back when our decks will be ready | print your own deck for free and play!  |
+| *order a physical deck (coming soon)* | *print your own deck for free and play!*  |
+| <img width="150" src="./images/star.png" alt="Star Variables War Card Game"> | <img width="150" src="./images/printme.png" alt="Print Variables War Card Game"> |
 | start the project so we could ping you back when our decks will be ready | Print this page [just print this page](http://htmlpreview.github.io/?https://raw.githubusercontent.com/kids-code-games/variables-war/master/card-maker/01_ourdeck/card-GENERATED.html) |
-| <img width="200" src="./images/star.png" alt="Star Variables War Card Game"> | <img width="200" src="./images/printme.png" alt="Print Variables War Card Game"> |
 
 # Want to contributes, suggest cards?
 
