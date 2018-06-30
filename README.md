@@ -93,15 +93,18 @@ More detailed [game rules are available here](./GameRules.md).
 
 
 <div align="center">
-<a href="http://htmlpreview.github.io/?https://raw.githubusercontent.com/kids-code-games/variables-war/master/card-maker/01_ourdeck/card-GENERATED.html">
-<img width="100" src="./images/printme.png" alt="print me and start to play variable wars" />
-</a>
-</div>
+
 
 * *print your own deck for free and play!*, [just print this page](http://htmlpreview.github.io/?https://raw.githubusercontent.com/kids-code-games/variables-war/master/card-maker/01_ourdeck/card-GENERATED.html)
 
-* *order a physical deck* (comming soon), please starthe project so we could ping you back when our decks will be ready
+* *order a physical deck* (coming soon), please starthe project so we could ping you back when our decks will be ready
 
+
+| Physical Deck | Printed Deck |
+|---------------|--------------|
+| *order a physical deck (coming soon)* please starthe project so we could ping you back when our decks will be ready | print your own deck for free and play!  |
+| start the project so we could ping you back when our decks will be ready | Print this page [just print this page](http://htmlpreview.github.io/?https://raw.githubusercontent.com/kids-code-games/variables-war/master/card-maker/01_ourdeck/card-GENERATED.html) |
+| <img width="200" src="./images/star.png" alt="Star Variables War Card Game"> | <img width="200" src="./images/printme.png" alt="Print Variables War Card Game"> |
 
 # Want to contributes, suggest cards?
 
