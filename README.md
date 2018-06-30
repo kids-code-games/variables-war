@@ -91,7 +91,6 @@ For each card, you can either:
 <img height="150" src="./images/card-loop.jpeg" />
 <img height="150" src="./images/card-pair.jpeg" />
 <img height="150" src="./images/card-rollback.jpeg" />
-<img height="150" src="./images/card-pr.jpeg" />
 <img height="150" src="./images/card-mob.jpeg" />
 <img height="150" src="./images/card-freeze.jpeg" />
 </div>
