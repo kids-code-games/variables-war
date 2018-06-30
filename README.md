@@ -6,6 +6,15 @@
     </a>
 </p>
 
+<div align="center'>
+<img height="150" src="./images/card-increment.jpeg" />
+<img height="150" src="./images/card-legacy.jpeg" />
+<img height="150" src="./images/card-loop.jpeg" />
+<img height="150" src="./images/card-pair.jpeg" />
+<img height="150" src="./images/card-rollback.jpeg" />
+<img height="150" src="./images/card-mob.jpeg" />
+<img height="150" src="./images/card-freeze.jpeg" />
+</div>
 
 <div align="center">
 <a href="https://kids-code-games.github.io/variables-war/">
@@ -78,7 +87,7 @@ When it's your turn, you start drawing 2 cards, then play 2 cards to always have
 
 * *bonus*: Game changer cards! You will definitively love those ones!
 
-<div>
+<div align="center'>
 <img height="150" src="./images/card-increment.jpeg" />
 <img height="150" src="./images/card-legacy.jpeg" />
 <img height="150" src="./images/card-loop.jpeg" />
