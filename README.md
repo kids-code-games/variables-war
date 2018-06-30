@@ -67,7 +67,6 @@ Enjoy :)
 #### 2 variables by player, be the first the reach 42 points!
 
 Each player has 2 variables: A and B.
-
 This is where the player will increment their respective values using his own strategy to avoid attack and maximize benefits of loops and bonuses.
 
 The goal is to reach 42 for either of variables A and B. 
