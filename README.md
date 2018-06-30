@@ -122,7 +122,13 @@ We are waiting your [suggestions / questions / feedbacks](https://github.com/kid
 <div align="center">
 <img width="200" src="./images/pull-request.gif" alt="Variables War Card Game">
 </div>   
-   
+
+
+# Git History
+
+As a bonus, this is a photo of one of our high technology (paper) and ()deprecated) prototype we tested several months ago.
+
+<img src="./images/cards-v2.jpeg" />
 
 # License
 
