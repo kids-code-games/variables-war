@@ -14,7 +14,7 @@
 <a href="https://github.com/kids-code-games/variables-war/issues">
     <img src="./images/Contribure-here-blue.svg" alt="Variables War Contributions" />
 </a>
-<a href="#todo">
+<a href="http://htmlpreview.github.io/?https://raw.githubusercontent.com/kids-code-games/variables-war/master/card-maker/01_ourdeck/card-GENERATED.html">
     <img src="./images/Download-me-for free.svg" alt="Variables War Download" />
 </a>
 </div>
@@ -24,7 +24,7 @@
 
 # What is this game about?
 
-##### Technical requirements and general architecture
+#### Technical requirements and general architecture
 
 - From 7 to 96 years old
 - 2 to 6 players, more you are more fun it will be!
@@ -32,7 +32,7 @@
 - 106 cards: values, loop, attacks, defense, bonus..
 - always 6 cards by players
 
-##### Coding it fun, even without an IDE! This game is Kids Friendly!
+#### Coding it fun, even without an IDE! This game is Kids Friendly!
 
 Each player has 2 variables declaration board in front of him: A and B. 
 The goal is to be the first to reach 42 for one of your 2 variables. For that you will play cards to create a program that is updating them.
@@ -56,7 +56,7 @@ Enjoy :)
 
 # The rules, how to play?
 
-##### 2 variables by player, be the first the reach 42 points!
+#### 2 variables by player, be the first the reach 42 points!
 
 This is where he will increment his variables, and where all players can add attacks or bonus. 
 A player shuffles the deck and deals 6 cards face down to each player. The remainder of the deck is left in the center of the table face down. It will be the drawing pile.
@@ -74,7 +74,7 @@ For each card, you can either:
 - any combination of the above.
 
 
-##### 5 categories of cards: 
+#### 5 categories of cards: 
 * *value*: used to increase or decrease the value of a Var, remember the goal is to reach exactly 42 point.
 
 * *loop*: repeat the next card to be played on a variable, you will need them to go reach faster 42 or you can use them on their opponents to redeuce their score.
@@ -88,6 +88,16 @@ For each card, you can either:
 The complete list of cards is [available on this page](./CardsDescription.md).
 
 More detailed [game rules are available here](./GameRules.md).
+
+# Too much talking, I want to play!
+
+
+<a href="http://htmlpreview.github.io/?https://raw.githubusercontent.com/kids-code-games/variables-war/master/card-maker/01_ourdeck/card-GENERATED.html">
+<img src='./printme.png' alt="print me and start to play variable wars" />
+</a>
+* *print your own deck for free and play!*, [just print this page](http://htmlpreview.github.io/?https://raw.githubusercontent.com/kids-code-games/variables-war/master/card-maker/01_ourdeck/card-GENERATED.html)
+
+* *order a physical deck* (comming soon), please starthe project so we could ping you back when our decks will be ready
 
 
 # Want to contributes, suggest cards?
