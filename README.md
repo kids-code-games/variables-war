@@ -34,17 +34,17 @@
 
 #### Coding it fun, even without an IDE! This game is Kids Friendly!
 
-Each player has 2 variables declaration board in front of him: A and B. 
-The goal is to be the first to reach 42 for one of your 2 variables. For that you will play cards to create a program that is updating them.
-Different kid of cards will help you (or not) to do that: *values* and *loop* cards will help you to increment your variable value, all the other cards will be used slow down your opponents or defense yourself from an attack.
+The goal is to be the first to reach 42 for one of your 2 variables. For that, you will have to play cards to create a program that that is updating them.
+Different kind of cards will help you, if you are lucky enough, to do that: *values* and *loop* cards will help you to increment your variable value, all the other cards will be used slow down your opponents or defense yourself from an attack.
 
-You probably noticed the geeky terminology we are using? Your're right we created the game to teach our own kids some software engineering and coding logic. And because we loved it, we are sharing it on this github. 
+You probably noticed the geeky terminology we are using? We created this game to teach our own kids some a bit of software engineering and coding logic. 
+But because we loved it, even more than expected, we share it on this github. 
 
-Playing this game we will:
+By playing this game you will:
 - create a simple program that update values of your variables
-- play with conditionals 
-- play with loop
-- learn many development related terms like from Memory leak, Refatoring or firewall to pull requests, pair programming and feature flipping!
+- play with conditionals and requirements
+- play with loop, or merge the values of your variables
+- learn many development related terms like from *Memory leak*, *Refactoring* or *Firewall* to ... *Pull requests*, *Pair programming* and *Feature flipping*!
 
 The cards will allow you to create bugs on your opponent program, work together with team mates and race to be the first to reach 42!
 
@@ -58,24 +58,17 @@ Enjoy :)
 
 #### 2 variables by player, be the first the reach 42 points!
 
-This is where he will increment his variables, and where all players can add attacks or bonus. 
-A player shuffles the deck and deals 6 cards face down to each player. The remainder of the deck is left in the center of the table face down. It will be the drawing pile.
+Each player got 2 variables: A and B.
+This is where he will increment their respected values using your own strategy to avoid attack and maximize benefits of loops and bonuses.
 
-
-Each player got 2 variables: A and B
 The goal is to reach 42 for either of variables A and B. 
 
-When it's your turn, you start drawing 2 cards, then play 2 cards. 
-For each card, you can either:
-- play 1 Value card (yellow) on your variables to get closer to 42 on variable A or B. You can combine incremental cards with repeat cards.
-- play 1 Value card (yellow) on another player's variables. For instance, you can decrease his variable value, or make it so that it matches a conditional attack.
-- play an attack card (red) on other players's variables, to slow them down in their progress
-- play a bonus card, either on yourself or on another player, depending on the card.
-- any combination of the above.
+When it's your turn, you start drawing 2 cards, then play 2 cards to always have 6 cards in hands.
 
 
 #### 5 categories of cards: 
-* *value*: used to increase or decrease the value of a Var, remember the goal is to reach exactly 42 point.
+
+* *value*: used to increase or decrease the value of a Var, remember the goal is to reach exactly 42 points.
 
 * *loop*: repeat the next card to be played on a variable, you will need them to go reach faster 42 or you can use them on their opponents to redeuce their score.
 
