@@ -1,4 +1,4 @@
-## Welcome to Variables War, the coding playing card game
+# Welcome to Variables War, the coding playing card game
 
 <p align="center">
     <a href="https://kids-code-games.github.io/variables-war/" target="_blank">
@@ -10,13 +10,13 @@
 
 ![Image](https://www.anthonyherve.fr/uploads/images/855b41d0232d6b2a4ba39f8625ef7644bf18e394.gif)
 
-### What is this game about?
+# What is this game about?
 
 TODO
 
 You love the idea, please star us!
 
-### The rules
+# The rules
 
 TODO
 
@@ -33,10 +33,10 @@ TODO
 
 The complete list of cards is [available on this page](./CardsDescription.md).
 
+More detailed [game rules are available here](./GameRules.md).
 
 
-
-### Want to contributes, suggest cards?
+# Want to contributes, suggest cards?
 
 We need help in many ways:
 * *designing cards*, graphical materials, please be free to give us a hand!
@@ -49,7 +49,7 @@ We are waiting your [suggestions / questions / feedbacks](https://github.com/kid
 <img width="200" src="./images/pull-request.gif" alt="Variables War Card Game">
    
 
-## License
+# License
 
 [Apache Version 2.0, January 2004](https://www.apache.org/licenses/LICENSE-2.0)
 
