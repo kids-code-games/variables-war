@@ -14,6 +14,8 @@
 
 TODO
 
+You love the idea, please star us!
+
 ### The rules
 
 TODO
@@ -33,9 +35,18 @@ The complete list of cards is [available on this page](./CardsDescription.md).
 
 
 
+
 ### Want to contributes, suggest cards?
 
-<img width="2000" src="./images/pull-request.gif" alt="Variables War Card Game">
+We need help in many ways:
+* *designing cards*, graphical materials, please be free to give us a hand!
+* *exploring new ideas*, there are tons of alternatives cards could be added, we already added/deleted lots of cards according to all testing games to make this game as fun as possible, but we would love to create extensions!
+* *marketing* and *community management*, help us to talk about this game
+
+We are waiting your [suggestions / questions / feedbacks](https://github.com/kids-code-games/variables-war/issues)!*
+
+
+<img width="200" src="./images/pull-request.gif" alt="Variables War Card Game">
    
 
 ## License

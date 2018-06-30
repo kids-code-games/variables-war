@@ -12,6 +12,10 @@
 
 * *bonus*: Game changer cards! You will definitively love those ones!
 
+If you have any question about how to play those card, [please ask us](https://github.com/kids-code-games/variables-war/labels)!
+
+*Tons of alternatives cards could be added, [we are waiting your suggestions](https://github.com/kids-code-games/variables-war/labels)!*
+
 | Type | Card Name | Description |
 |---------|--------|-------------|
 | Value cards | Increment one var by 1 | Increment one var by 1. It can be any player's var. |
