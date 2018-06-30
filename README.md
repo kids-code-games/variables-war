@@ -128,7 +128,9 @@ We are waiting your [suggestions / questions / feedbacks](https://github.com/kid
 
 As a bonus, this is a photo of one of our high technology (paper) and (deprecated) prototype we tested several months ago.
 
+<div align="center"> 
 <img width="600" src="./images/cards-v2.jpeg" />
+</div>
 
 # License
 
