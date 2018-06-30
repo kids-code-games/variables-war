@@ -7,9 +7,9 @@
 </p>
 
 
-<a href="https://kids-code-games.github.io/variables-war/">
-Github pages of this project
+The Github pages <a href="https://kids-code-games.github.io/variables-war/">
 <img src="./images/GitHub-pages.svg" alt="Variables War Card Game GitHubPages">
+ is here!
 </a>
 
 
