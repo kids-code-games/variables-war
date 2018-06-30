@@ -43,7 +43,7 @@
 #### Coding is fun, even without an IDE! This game is (natively) Kids Friendly!
 
 The goal is to be the first to reach 42 for either of your 2 variables. For that, you will have to create a program that gets them closer to 42.
-Different kind of cards will help you achieve that, if you are lucky enough: *values* and *loop* cards will help you to increment your variable value. All the other cards will be used to slow down your opponents or defend yourself from a previous attack.
+Different kind of cards will help you achieve that, if you are lucky enough: *values* and *loop* cards will help you increment your variable value. All the other cards will be used to slow down your opponents or defend yourself from a previous attack.
 
 You probably noticed the geeky terminology we are using? We created this game to teach our own kids a bit of software engineering and coding practices.
 But because we loved it, even more than expected, we chose to share it on github. 
