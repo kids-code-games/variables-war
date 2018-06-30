@@ -85,7 +85,15 @@ For each card, you can either:
 
 * *bonus*: Game changer cards! You will definitively love those ones!
 
-The complete list of cards is [available on this page](./CardsDescription.md).
+<div>
+<img height="150" src="./images/card-increment.jpeg" />
+<img height="150" src="./images/card-legacy.jpeg" />
+<img height="150" src="./images/card-loop.jpeg" />
+<img height="150" src="./images/card-pair.jpeg" />
+<img height="150" src="./images/card-rollback.jpeg" />
+</div>
+
+This are example of card, the full list is [available on this page](./CardsDescription.md).
 
 More detailed [game rules are available here](./GameRules.md).
 
