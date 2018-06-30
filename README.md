@@ -97,6 +97,7 @@ More detailed [game rules are available here](./GameRules.md).
 <img width="100" src="./images/printme.png" alt="print me and start to play variable wars" />
 </a>
 </div>
+
 * *print your own deck for free and play!*, [just print this page](http://htmlpreview.github.io/?https://raw.githubusercontent.com/kids-code-games/variables-war/master/card-maker/01_ourdeck/card-GENERATED.html)
 
 * *order a physical deck* (comming soon), please starthe project so we could ping you back when our decks will be ready
