@@ -19,12 +19,14 @@
 </a>
 </div>
 
+<div align="center">You love this game? Please star us!</div>
+
 
 # What is this game about?
 
 TODO
 
-You love the idea, please star us!
+
 
 # The rules
 
