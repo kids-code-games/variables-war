@@ -39,6 +39,10 @@ Each user has a variable declaration board in front of him. This is where he wil
 
 The goal of this game is to reach a value of 42 for either of the 2 variables. If at the end of the drawing pile, no one has reached 42, the player who has a variable closest to 42 wins (even if he has more than 42). 
 
+<div align="center">
+<img width="600" src="./images/board-values.jpeg" />
+</div>
+
 ## Instructions
 
 The player directly to the left of the dealer starts, then everyone plays turn by turn, clockwise.
@@ -51,7 +55,7 @@ You must now play 2 cards. With each card you'll play, you can do either of the 
 - remove an attack that was done to you by using a _Defense_ card.
 - use a _Bonus_ card to attack, defend, or change the course of the game.
 
-You can use the 2 cards independantly, but's it can be smarter to use a combination of 2 cards to ensure a better outcome. For instance:
+You can use the 2 cards independently, but's it can be smarter to use a combination of 2 cards to ensure a better outcome. For instance:
 - use a _Repeat 3_ card, and stack a _increment by 8_ card on top of it, to increment your variable by 24!
 - give a _Memory Leak_ attack on another player, then put a _Increment by 2_ to one of his variable so that the variable value modulo 3 is equal to 0, and is reset to 0 :P
 - play a _Open Source_ practice to see the other players cards, and play a _Mob Programing_ to get the most interesting hand from either of your direct neighbours :)
@@ -60,5 +64,5 @@ If you can't play, for instance if your code is frozen for 2 turns, you only hav
 
 At the end of your turn, you must have 6 cards in hand.
 
-If noone reaches 42, the game ends when the drawing pile is empty, and when the player who drew the last card played. If there was only one card left when he drew, he can only play one card.
+If none reaches 42, the game ends when the drawing pile is empty, and when the player who drew the last card played. If there was only one card left when he drew, he can only play one card.
 
