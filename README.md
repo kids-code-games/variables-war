@@ -100,6 +100,12 @@ This are example of card, the full list is [available on this page](./CardsDescr
 
 More detailed [game rules are available here](./GameRules.md).
 
+<div align="center">
+<a href="./GameRules.md">
+<img width="200" src="./images/rules.png" border="0" />
+</a
+</div>
+
 # Too much talking, I want to play!
 
 
