@@ -18,6 +18,9 @@ If you have any question about how to play those card, [please ask us](https://g
 
 |Number of cards in a deck| Type | Card Name | Description |
 |---|---------|--------|-------------|
+|x6| Start Card | Variable A | Given to every playing at the beginning of the game. (Not to be played) |
+|x6| Start Card | Variable B | Given to every playing at the beginning of the game. (Not to be played) |
+|x6| Value cards | Increment one var by 1 | Increment one var by 1. It can be any player's var. |
 |x10| Value cards | Increment one var by 1 | Increment one var by 1. It can be any player's var. |
 |x10| Value cards | Increment one var by 2 | Increment one var by 2. It can be any player's var. |
 |x10| Value cards | Increment one var by 3 | Increment one var by 3. It can be any player's var. |
