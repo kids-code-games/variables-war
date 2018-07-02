@@ -1,11 +1,14 @@
 .card {
-    margin: 0.5mm;
+    margin: 1.2mm;
     border-style: solid;
-    border-width: 0.8mm;
-    border-color: black;
+    border-width: 3.5mm;
+    border-color: red;
     border-radius: 3mm;
     width: 63mm;
     height: 88mm;
+    //outline: 5px solid #fff;
+    //outline-offset: -10px;
+    box-shadow: 0 0 0 0.8mm black;
 }
 
 header, section, footer {
@@ -75,24 +78,28 @@ footer {
     //background: linear-gradient(-45deg, rgba(240, 101, 40, 0.71) 0%, #f06528 40%), url(img/attack.png);
     //background: linear-gradient(-45deg, rgba(240, 101, 40, 0.71) 0%, #f06528 25%);
     //background: linear-gradient(-45deg, rgba(240, 101, 40, 0.71) 0%, #f06528 25%);
-    background: linear-gradient(-45deg, rgba(240, 101, 40, 0.71) 0%, #ff570c 25%);
-    color: #f4f4f4;
+    //background: linear-gradient(-45deg, rgba(240, 101, 40, 0.71) 0%, #ff570c 25%);
+    border-color: #ff570c;
+    color: #3c3c3c;
 }
 .defense {
     //background-color: #07a050;
     //background: linear-gradient(-45deg, rgba(7, 160, 80, 0.7) 0%, #07a050 25%);
-    background: linear-gradient(-45deg, rgba(7, 160, 80, 0.7) 0%, #07a050 25%);
-    color: #f4f4f4;
+    //background: linear-gradient(-45deg, rgba(7, 160, 80, 0.7) 0%, #07a050 25%);
+    border-color: #07a050;
+    color: #3c3c3c;
 }
 .bonus {
     //background-color: #008bd6;
-    background: linear-gradient(-45deg, rgba(0, 139, 214, 0.7) 0%, #008bd6 25%);
     //background: linear-gradient(-45deg, #135589 0%, #2A93D5 25%);
-    color: #f4f4f4;
+    //background: linear-gradient(-45deg, rgba(0, 139, 214, 0.7) 0%, #008bd6 25%);
+    border-color: #008bd6;
+    color: #3c3c3c;
 }
 .value {
     //background-color: #e8e946;
-    background: linear-gradient(-45deg, rgba(232, 233, 70, 0.7) 0%, #e8e946 25%);
+    //background: linear-gradient(-45deg, rgba(232, 233, 70, 0.7) 0%, #e8e946 25%);
+    border-color: #e8e946;
     color: #3c3c3c;
 }
 

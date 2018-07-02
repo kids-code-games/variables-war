@@ -1,0 +1,718 @@
+<!doctype html><html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta><link rel="stylesheet" type="text/css" href="card.css"><style>body {
+    margin: 10mm;
+}
+
+table.page {
+    border: 0mm;
+    page-break-after: always;    
+    border-spacing: 0;
+    border-collapse: collapse;
+    display:block;        
+    clear: both;
+}
+
+table.page td {
+    padding: 0;
+}
+</style>
+</head><body><table class="page"><tr><td><div class="card attack"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header> 
+  <h1>Code Freeze</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   while (turns < 2) {<br>&nbsp;&nbsp;freezeAllVars();<br>}
+  </div> 
+  <div class="description">
+   Blocks all vars for <br>2 turns.
+  </div> 
+  <div class="comment">
+   <div style='margin-top: -20px'>Coffee break!</div>
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&#10063;&#10063;&nbsp;</span> 
+  <span class="rounds">&nbsp;&#9844;</span> 
+ </footer> 
+</div></td><td><div class="card attack"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header> 
+  <h1>Var Freeze</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   while (turns < 2) {<br>&nbsp;&nbsp;freezeOneVar();<br>}
+  </div> 
+  <div class="description">
+   Blocks 1 var for <br>2 turns.
+  </div> 
+  <div class="comment">
+   <div style='margin-top: -20px'>Are you still using CVS?</div>
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&#10063;&nbsp;</span> 
+  <span class="rounds">&nbsp;&#9844;</span> 
+ </footer> 
+</div></td><td><div class="card attack"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header> 
+  <h1>Legacy code</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   
+  </div> 
+  <div class="description">
+   <div style='margin-top: -30px'>Only allows play <br>+/-1 or +/-2 values on your vars.</div>
+  </div> 
+  <div class="comment">
+   Take your time to enjoy the moment :)
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&#10063;&#10063;&nbsp;</span> 
+  <span class="rounds">&nbsp;&#9850;</span> 
+ </footer> 
+</div></td><td><div class="card attack"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header> 
+  <h1>Condition</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   if (varA &lt; varB) {<br>&nbsp;&nbsp;cancelCard();<br>}
+  </div> 
+  <div class="description">
+   Forbids any card that <br>is not helping to fix this.
+  </div> 
+  <div class="comment">
+   
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&#10063;&#10063;&nbsp;</span> 
+  <span class="rounds">&nbsp;&#9850;</span> 
+ </footer> 
+</div></td></tr><tr><td><div class="card attack"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header> 
+  <h1>Condition</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   if (varB &lt; varA) {<br>&nbsp;&nbsp;cancelCard();<br>}
+  </div> 
+  <div class="description">
+   Forbids any card that <br>is not helping to fix this.
+  </div> 
+  <div class="comment">
+   
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&#10063;&#10063;&nbsp;</span> 
+  <span class="rounds">&nbsp;&#9850;</span> 
+ </footer> 
+</div></td><td><div class="card attack"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header> 
+  <h1>Memory Leak</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   if (var % 3 == 0) {<br>&nbsp;&nbsp;var = 0;<br>}
+  </div> 
+  <div class="description">
+   Reset to 0 the var if its values is a multiple of 3.
+  </div> 
+  <div class="comment">
+   
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&#10063;&nbsp;</span> 
+  <span class="rounds">&nbsp;&#9850;</span> 
+ </footer> 
+</div></td><td><div class="card defense"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header> 
+  <h1>Rollback</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   
+  </div> 
+  <div class="description">
+   Remove last card put on the selected game.
+  </div> 
+  <div class="comment">
+   We know, we know, life is unfair, thanks Calimero!
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
+</div></td><td><div class="card defense"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header> 
+  <h1>Refactoring</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   
+  </div> 
+  <div class="description">
+   Remove a <br>"Legacy code" or "Condition" card.
+  </div> 
+  <div class="comment">
+   Cheers!
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
+</div></td></tr></table><table class="page"><tr><td><div class="card defense"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header> 
+  <h1>Firewall</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   
+  </div> 
+  <div class="description">
+   Return any attack<br>to its sender's game!
+  </div> 
+  <div class="comment">
+   No need to be sorry :)
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
+</div></td><td><div class="card bonus"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header> 
+  <h1>Pair programming</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   
+  </div> 
+  <div class="description">
+   <div style='margin-top: -30px'>Draw 3 cards with another player and agree on how to use them or discard everything!</div>
+  </div> 
+  <div class="comment">
+   He mate!
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
+</div></td><td><div class="card bonus"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header> 
+  <h1>Pull request</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   <div style='margin-top: -30px'>git checkout varA && git rebase varB<div class=or>or</div>git checkout varB && git rebase varA</div>
+  </div> 
+  <div class="description">
+   <div style='margin-top: -20px'>Merge (rebase)<br>vars A and B. Fusion your 2 vars in 1.</div>
+  </div> 
+  <div class="comment">
+   
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
+</div></td><td><div class="card bonus"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header> 
+  <h1>Continuous deployment</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   if (var % 7 == 0) {<br>&nbsp;&nbsp;playTwice();<br>}
+  </div> 
+  <div class="description">
+   <div style='margin-top: -20px'>Play twice when the selected var is a<br>multiple of 7.</div>
+  </div> 
+  <div class="comment">
+   
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&#10063;&nbsp;</span> 
+  <span class="rounds">&nbsp;&#9850;</span> 
+ </footer> 
+</div></td></tr><tr><td><div class="card bonus"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header> 
+  <h1>Feature Flipping</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   <center>featureOff = true;</center>
+  </div> 
+  <div class="description">
+   Delete 1 card anywhere<br>(any vars, any hands).
+  </div> 
+  <div class="comment">
+   No mercy!
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
+</div></td><td><div class="card bonus"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header> 
+  <h1>Open Source</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   
+  </div> 
+  <div class="description">
+   <div style='margin-top: -30px'>All players put their hand face up on the table for 2 rounds.</div>
+  </div> 
+  <div class="comment">
+   ...and star us on Github :)<div class=link>http://github.com/code-with-cards</div>
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;&#9844;</span> 
+ </footer> 
+</div></td><td><div class="card bonus"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header> 
+  <h1>Mob Programming</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   
+  </div> 
+  <div class="description">
+   <div style='margin-top: -30px'>All cards change hands in the direction decided by the card player</div>
+  </div> 
+  <div class="comment">
+   He guys, let's work <br>as a team!
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
+</div></td><td><div class="card value"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header> 
+  <h1>Increment by 1</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   <div class=simpleCode>var += 1;</div>
+  </div> 
+  <div class="description">
+   Increment one of <br>your var by 1.
+  </div> 
+  <div class="comment">
+   42 here we come!
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
+</div></td></tr></table><table class="page"><tr><td><div class="card value"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header> 
+  <h1>Increment by 2</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   <div class=simpleCode>var += 2;</div>
+  </div> 
+  <div class="description">
+   Increment one of <br>your var by 2.
+  </div> 
+  <div class="comment">
+   
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
+</div></td><td><div class="card value"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header> 
+  <h1>Increment by 3</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   <div class=simpleCode>var += 3;</div>
+  </div> 
+  <div class="description">
+   Increment one of <br>your var by 3.
+  </div> 
+  <div class="comment">
+   
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
+</div></td><td><div class="card value"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header> 
+  <h1>Increment by 5</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   <div class=simpleCode>var += 5;</div>
+  </div> 
+  <div class="description">
+   Increment one of <br>your var by 5.
+  </div> 
+  <div class="comment">
+   
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
+</div></td><td><div class="card value"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header> 
+  <h1>Increment by 8</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   <div class=simpleCode>var += 8;</div>
+  </div> 
+  <div class="description">
+   Increment one of <br>your var by 8.
+  </div> 
+  <div class="comment">
+   
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
+</div></td></tr><tr><td><div class="card value"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header> 
+  <h1>Decrement by 1</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   <div class=simpleCode>var -= 1;</div>
+  </div> 
+  <div class="description">
+   Decrement one of <br>your var by 1.
+  </div> 
+  <div class="comment">
+   
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
+</div></td><td><div class="card value"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header> 
+  <h1>Decrement by 2</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   <div class=simpleCode>var -= 2;</div>
+  </div> 
+  <div class="description">
+   Decrement one of <br>your var by 2.
+  </div> 
+  <div class="comment">
+   
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
+</div></td><td><div class="card value"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header> 
+  <h1>Repeat 2</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   &nbsp;&nbsp;&nbsp;&nbsp;2 times {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...<br>&nbsp;&nbsp;&nbsp;&nbsp;}
+  </div> 
+  <div class="description">
+   The next yellow card is valued twice.
+  </div> 
+  <div class="comment">
+   
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
+</div></td><td><div class="card value"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header> 
+  <h1>Repeat 3</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   &nbsp;&nbsp;&nbsp;&nbsp;3 times {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...<br>&nbsp;&nbsp;&nbsp;&nbsp;}
+  </div> 
+  <div class="description">
+   The next yellow card is valued three times.
+  </div> 
+  <div class="comment">
+   Reusing is caring!
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
+</div></td></tr></table><table class="page"><tr><td><div class="card value"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header> 
+  <h1>Repeat ${PlayersCount}</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   val n = nbPlayers;<br>(1 to n).foreach {<br>&nbsp;&nbsp;...<br>}
+  </div> 
+  <div class="description">
+   The next yellow card is valued as many times as there are players in the game.
+  </div> 
+  <div class="comment">
+   
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
+</div></td></tr></table></body></html>
