@@ -112,7 +112,7 @@ More detailed [game rules are available here](./GameRules.md).
 # Want to contributes, suggest cards?
 
 We need help in many ways:
-* *designing cards*, graphical materials, please feel free to give us a hand!
+* *designing cards*, graphical materials, please feel free to give us a hand! See the [related documentation](./CreateTheme.md)
 * *exploring new ideas*, there are tons of alternatives cards could be added, we already added/deleted lots of cards according to all testing games to make this game as fun as possible, but we would love to create extensions!
 * *marketing* and *community management*, help us to talk about this game
 
