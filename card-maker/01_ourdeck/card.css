@@ -96,6 +96,23 @@ footer {
     color: #3c3c3c;
 }
 
+.varLabel {
+    display: none;
+}
+.other .varLabel {
+    display: block;
+    padding-top: 30px;
+    font-size: 0.8em;
+}
+.other .varValue {
+    padding-top: 0px;
+    font-size: 2em;
+}
+.other section {
+    font-size: 0;
+    max-height: 0;
+    display: none;
+}
 
 
 /* pictos */

@@ -107,3 +107,15 @@ value;Repeat 2;"&nbsp;&nbsp;&nbsp;&nbsp;2 times {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nb
 value;Repeat 3;"&nbsp;&nbsp;&nbsp;&nbsp;3 times {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...<br>&nbsp;&nbsp;&nbsp;&nbsp;}";The next yellow card is valued three times.;;;Reusing is caring!
 value;Repeat 3;"&nbsp;&nbsp;&nbsp;&nbsp;3 times {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...<br>&nbsp;&nbsp;&nbsp;&nbsp;}";The next yellow card is valued three times.;;;Reusing is caring!
 value;Repeat ${PlayersCount};"val n = nbPlayers;<br>(1 to n).foreach {<br>&nbsp;&nbsp;...<br>}";The next yellow card is valued as many times as there are players.;;;
+other;A;;;;;
+other;B;;;;;
+other;A;;;;;
+other;B;;;;;
+other;A;;;;;
+other;B;;;;;
+other;A;;;;;
+other;B;;;;;
+other;A;;;;;
+other;B;;;;;
+other;A;;;;;
+other;B;;;;;
