@@ -76,6 +76,9 @@ The goal is to reach 42 for either of variables A and B.
 
 When it's your turn, you start drawing 2 cards, then play 2 cards to always have 6 cards in hands.
 
+<div align="center">
+<img width="600" src="./images/board-setup.jpeg" />
+</div>
 
 #### 5 categories of cards: 
 
