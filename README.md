@@ -26,6 +26,9 @@
 <a href="http://htmlpreview.github.io/?https://raw.githubusercontent.com/kids-code-games/variables-war/master/card-maker/01_ourdeck/card-GENERATED.html">
     <img src="./images/Download-me-for free.svg" alt="Variables War Download" />
 </a>
+<a href="./GameRules.md">
+    <img src="./images/read-rules-yellow.svg" alt="Variables War Download" />
+</a>
 </div>
 
 <div align="center">You love this game? Please star us!</div>
