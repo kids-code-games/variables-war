@@ -16,6 +16,11 @@ The Variable War is a card game to have a fun first contact with software progra
 
 Each cards description is listed in the [Cards Description](CardsDescription.md) part.
 
+<div align="center">
+<img width="600" src="./images/board-cards.jpeg" />
+</div>
+
+
 # How to play
 
 ## Overview

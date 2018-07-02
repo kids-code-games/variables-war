@@ -47,6 +47,13 @@ If you have any question about how to play those card, [please ask us](https://g
 |x2| Bonus  | Open Source | All players put their hand face up on the table for 2 rounds. |
 |x2| Bonus  | Mob Programming | All cards change hands in the direction decided by the card player. |
 
+# Anatomy of a card
+
+<div align="center">
+<img width="600" src="./images/board-cards.jpeg" />
+</div>
+
+
 # Attacks
 
 ## Code Freeze 
