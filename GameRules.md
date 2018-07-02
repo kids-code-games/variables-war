@@ -31,6 +31,10 @@ The point is to reach 42 for either of variables A and B. When it's your turn, y
 
 Each user has a variable declaration board in front of him. This is where he will increment his variables, and where all players can add attacks or bonus. A player shuffles the deck and deals 6 cards face down to each player. The remainder of the deck is left in the center of the table face down. It will be the drawing pile.
 
+<div align="center">
+<img width="400" src="./images/board-setup.jpeg" />
+</div>
+
 ## Goal
 
 The goal of this game is to reach a value of 42 for either of the 2 variables. If at the end of the drawing pile, no one has reached 42, the player who has a variable closest to 42 wins (even if he has more than 42). 
