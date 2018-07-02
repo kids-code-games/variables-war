@@ -66,3 +66,6 @@ At the end of your turn, you must have 6 cards in hand.
 
 If none reaches 42, the game ends when the drawing pile is empty, and when the player who drew the last card played. If there was only one card left when he drew, he can only play one card.
 
+<div align="center">
+<img width="600" src="./images/board-attaks.jpeg" />
+</div>
