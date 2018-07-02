@@ -103,7 +103,7 @@ More detailed [game rules are available here](./GameRules.md).
 <div align="center">
 <a href="./GameRules.md">
 <img width="200" src="./images/rules.png" border="0" />
-</a
+</a>
 </div>
 
 # Too much talking, I want to play!
