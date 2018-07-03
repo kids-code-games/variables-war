@@ -25,6 +25,11 @@ Each cards description is listed in the [Cards Description](CardsDescription.md)
 
 ## Overview
 
+<div align="center">
+<img width="600" src="./images/board-setup.jpeg" />
+</div>
+
+
 The point is to reach 42 for either of variables A and B. When it's your turn, you start drawing 2 cards, then play 2 cards. For each card, you can either:
 - play 1 Value card (yellow) on your variables to get closer to 42 on variable A or B. You can combine incremental cards with repeat cards.
 - play 1 Value card (yellow) on another player's variables. For instance, you can decrease his variable value, or make it so that it matches a conditional attack.
@@ -35,10 +40,6 @@ The point is to reach 42 for either of variables A and B. When it's your turn, y
 ## Game Setup
 
 Each user has a variable declaration board in front of him. This is where he will increment his variables, and where all players can add attacks or bonus. A player shuffles the deck and deals 6 cards face down to each player. The remainder of the deck is left in the center of the table face down. It will be the drawing pile.
-
-<div align="center">
-<img width="600" src="./images/board-setup.jpeg" />
-</div>
 
 ## Goal
 
