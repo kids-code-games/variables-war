@@ -38,15 +38,15 @@
 #### Technical requirements and general architecture
 
 - From 7 to 96 years old
-- 2 to 6 players, the more you are the funner it will be!
-- about 30 minutes, be the first to reach 42 or have the highest score when there is no card left
+- 2 to 6 players, the more you are the more fun it will be!
+- About 30 minutes, be the first to reach 42 or have the highest score when there is no card left
 - 106 cards: values, loops, attacks, defense, bonus..
-- always 6 cards by players
+- Always 6 cards by players
 
 #### Coding is fun, even without an IDE! This game is (natively) Kids Friendly!
 
 The goal is to be the first to reach 42 for either of your 2 variables. For that, you will have to create a program that gets them closer to 42.
-Different kind of cards will help you achieve that, if you are lucky enough: *values* and *loop* cards will help you increment your variable value. All the other cards will be used to slow down your opponents or defend yourself from a previous attack.
+Different kind of cards will help you to achieve that, if you are lucky enough: *values* and *loop* cards will help you increment your variable value. All the other cards will be used to slow down your opponents or defend yourself from a previous attack.
 
 You probably noticed the geeky terminology we are using? We created this game to teach our own kids a bit of software engineering and coding practices.
 But because we loved it, even more than expected, we chose to share it on github. 
@@ -121,14 +121,14 @@ More detailed [game rules are available here](./GameRules.md).
 | Star us so we could ping you back... | [Just print this page](http://htmlpreview.github.io/?https://raw.githubusercontent.com/kids-code-games/variables-war/master/card-maker/01_ourdeck/card-GENERATED.html) |
 | <div align="center"><img width="150" src="./images/star.png" alt="Star Variables War Card Game"><div> | <div align="center"><a href="http://htmlpreview.github.io/?https://raw.githubusercontent.com/kids-code-games/variables-war/master/card-maker/01_ourdeck/card-GENERATED.html"><img width="150" src="./images/printme.png" alt="Print Variables War Card Game"></a><div> |
 
-# Want to contributes, suggest cards?
+# Want to contribute, suggest cards?
 
 We need help in many ways:
 * *designing cards*, graphical materials, please feel free to give us a hand! See the [related documentation](./CreateTheme.md)
-* *exploring new ideas*, there are tons of alternatives cards could be added, we already added/deleted lots of cards according to all testing games to make this game as fun as possible, but we would love to create extensions!
+* *exploring new ideas*, there are tons of alternative cards that could be added, we've already added/deleted lots of cards according to all testing games to make this game as fun as possible, but we would love to create extensions!
 * *marketing* and *community management*, help us to talk about this game
 
-We are waiting your [suggestions / questions / feedbacks](https://github.com/kids-code-games/variables-war/issues)!*
+We are waiting for your [suggestions / questions / feedbacks](https://github.com/kids-code-games/variables-war/issues)!*
 
 <div align="center">
 <img width="200" src="./images/pull-request.gif" alt="Variables War Card Game">
