@@ -64,6 +64,10 @@ Yes! Kids can definitely play! We designed it to be played by kids (with their p
 
 Enjoy :)
 
+<div align="center">
+<img width="600" src="./images/banner-star.jpg" />
+</div>
+
 
 # The rules, how to play?
 
