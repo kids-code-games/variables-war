@@ -1,4 +1,4 @@
-The Variable War is a card game to have a fun first contact with software programation. But as we figured... it's also a lot of fun when you are already familiar with software programation :)
+The Variable War is a card game to have a fun first contact with software programming. But as we figured... it's also a lot of fun when you are already familiar with software programming :)
 
 # Game
 
@@ -33,7 +33,7 @@ Each cards description is listed in the [Cards Description](CardsDescription.md)
 The point is to reach 42 for either of variables A and B. When it's your turn, you start drawing 2 cards, then play 2 cards. For each card, you can either:
 - play 1 Value card (yellow) on your variables to get closer to 42 on variable A or B. You can combine incremental cards with repeat cards.
 - play 1 Value card (yellow) on another player's variables. For instance, you can decrease his variable value, or make it so that it matches a conditional attack.
-- play an attack card (red) on other players's variables, to slow them down in their progress
+- play an attack card (red) on other players' variables, to slow them down in their progress
 - play a bonus card, either on yourself or on another player, depending on the card.
 - any combination of the above.
 
@@ -63,10 +63,10 @@ You must now play 2 cards. With each card you'll play, you can do either of the 
 
 You can use the 2 cards independently, but's it can be smarter to use a combination of 2 cards to ensure a better outcome. For instance:
 - use a _Repeat 3_ card, and stack a _increment by 8_ card on top of it, to increment your variable by 24!
-- give a _Memory Leak_ attack on another player, then put a _Increment by 2_ to one of his variable so that the variable value modulo 3 is equal to 0, and is reset to 0 :P
-- play a _Open Source_ practice to see the other players cards, and play a _Mob Programing_ to get the most interesting hand from either of your direct neighbours :)
+- give a _Memory Leak_ attack on another player, then put a _Increment by 2_ to one of his variables so that the variable value modulo 3 is equal to 0, and is reset to 0 :P
+- play a _Open Source_ practice to see the other players cards, and play a _Mob Programming_ to get the most interesting hand from either of your direct neighbours :)
 
-If you can't play, for instance if your code is frozen for 2 turns, you only have Value cards, and you don't want to give them to another player (understandably), then you must discard a card in the discard pile.
+If you can't play, for instance, if your code is frozen for 2 turns, you only have Value cards, and you don't want to give them to another player (understandably), then you must discard a card in the discard pile.
 
 At the end of your turn, you must have 6 cards in hand.
 
