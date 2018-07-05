@@ -4,17 +4,17 @@
 5 categories of cards: 
 * *value*: used to increase or decrease the value of a Var, remember the goal is to reach exactly 42 points.
 
-* *loop*: repeat the next card to be played on a variable, you will need them to go reach faster 42 or you can use them on their opponents to reduce their score.
+* *loop*: repeat the next card to be played on a variable, you will need them to reach the goal of 42 faster or you can use them on your opponents to reduce their score.
 
-* *attacks*: freeze var, slow down speed or add requirements to your opponent stack. When you will have played several times you will eventually find some good opportunities to play some of them on yourself.
+* *attacks*: freeze var, slow down speed or add requirements to your opponent stack. When you have played several times you will eventually find some good opportunities to play some of them on yourself.
 
-* *defense*: Memory leak, refactoring or firewall, different way to counter attacks. Some of them will allow you to rewrite the history of your favorite variable.
+* *defense*: Memory leak, refactoring or firewall, different ways to counter attack. Some of them will allow you to rewrite the history of your favorite variable.
 
-* *bonus*: Game changer cards! You will definitively love those ones!
+* *bonus*: Game changer cards! You will definitively love these ones!
 
 If you have any question about how to play those cards, [please ask us](https://github.com/kids-code-games/variables-war/labels)!
 
-*Tons of alternatives cards could be added, [we are waiting for your suggestions](https://github.com/kids-code-games/variables-war/labels)!*
+*Tons of alternative cards could be added, [we are waiting for your suggestions](https://github.com/kids-code-games/variables-war/labels)!*
 
 |Number of cards in a deck| Type | Card Name | Description |
 |---|---------|--------|-------------|
@@ -36,8 +36,8 @@ If you have any question about how to play those cards, [please ask us](https://
 |x6| Attack | Legacy code  | Only allows playing +/-1 or +/-2 values on your vars. |
 |x3| Attack | Condition (varB < varA) | Forbids any card that is breaking this condition. If the condition is already broken, then forbids any card that is not going towards its resolution. |
 |x3| Attack | Condition (varA < varB) | Forbids any card that is breaking this condition. If the condition is already broken, then forbids any card that is not going towards its resolution. |
-|x2| Attack | Memory Leak  | Reset to 0 the var if its values is a multiple of 3. |
-|x5| Defense | Rollback  | Remove the last card put on any player's game. |
+|x2| Attack | Memory Leak  | Reset to 0 the var if its value is a multiple of 3. |
+|x5| Defense | Rollback  | Remove the last card on any var of any player. |
 |x7| Defense | Refactoring  | Remove a _Legacy code_ or _Condition_ card. |
 |x2| Defense | Firewall  | Return any attack to its sender's game.  |
 |x3| Bonus  | Pair programming | Draw 3 cards with another player and agree on how to use them or discard everything! |
@@ -107,7 +107,7 @@ Play twice when the selected var is a multiple of 7.
 
 ## Feature Flipping
 
-Delete 1 card anywhere (on any player, any vars, any hands)
+Delete 1 card anywhere (on any player, any vars, any hands).
 
 ## Open Source
 
