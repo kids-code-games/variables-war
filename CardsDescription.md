@@ -103,7 +103,8 @@ Merge (rebase) vars A and B. So either move all your Value cards from A on top o
 
 ## Continuous deployment
 
-Play twice when the selected var is a multiple of 7.
+Play twice each time the selected var is a multiple of 7. 
+Put this card on one of you variable, and keep it forever (unless removed by opponent's attack).
 
 ## Feature Flipping
 
