@@ -39,7 +39,7 @@
 
 - From 7 to 96 years old
 - 2 to 6 players, the more you are the more fun it will be!
-- About 30 minutes, be the first to reach 42 or have the highest score when there is no card left
+- About 30 minutes, be the first to reach 42 or be the closest to 42 when there is no card left
 - 106 cards: values, loops, attacks, defense, bonus...
 - Always 6 cards by players
 
