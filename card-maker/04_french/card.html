@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+   
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+    <link rel="stylesheet" type="text/css" href="unit.css">
+</head>
+
+<body>
+    <div class="card {{type}}">
+
+        <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        -->
+
+        <header class="varLabel">
+            <h1>Variable</h1>
+        </header>
+        <header class="varValue">
+            <h1>{{title}}</h1>
+        </header>
+
+        <section>
+            <div class="mycode">{{code}}</div>
+            <div class="description">{{description}}</div>
+            <div class="comment">{{comment}}</div>
+        </section>
+
+        <footer>
+            <span class="vars">{{vars}}</span>
+            <span class="rounds">{{rounds}}</span>
+        </footer>
+
+
+    </div>
+</body>
+
+</html>
