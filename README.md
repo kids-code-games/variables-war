@@ -122,8 +122,8 @@ More detailed [game rules are available here](./GameRules.md).
 | Order a physical deck                | Print your own deck and play!    |
 |--------------------------------------|----------------------------------|
 | *Coming soon, stay tuned..*          | *Print it now, obviously Free!*  |
-| Star us so we could ping you back... | [Just print this page](http://htmlpreview.github.io/?https://raw.githubusercontent.com/kids-code-games/variables-war/master/card-maker/01_ourdeck/card-GENERATED.html) |
-| <div align="center"><img width="150" src="./images/star.png" alt="Star Variables War Card Game"><div> | <div align="center"><a href="http://htmlpreview.github.io/?https://raw.githubusercontent.com/kids-code-games/variables-war/master/card-maker/01_ourdeck/card-GENERATED.html"><img width="150" src="./images/printme.png" alt="Print Variables War Card Game"></a><div> |
+| Star us so we could ping you back... | [Just print this page](https://kids-code-games.github.io/variables-war/card-maker/01_ourdeck/card-GENERATED.html) |
+| <div align="center"><img width="150" src="./images/star.png" alt="Star Variables War Card Game"><div> | <div align="center"><a href="https://kids-code-games.github.io/variables-war/card-maker/01_ourdeck/card-GENERATED.html"><img width="150" src="./images/printme.png" alt="Print Variables War Card Game"></a><div> |
 
 # Want to contribute, suggest cards?
 
