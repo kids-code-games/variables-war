@@ -33,9 +33,9 @@ defense;Refactoring;;Remove a <br>"Legacy code" or "Condition" card.;;;"Cheers!"
 defense;Refactoring;;Remove a <br>"Legacy code" or "Condition" card.;;;"Cheers!"
 defense;Firewall;;"Return any attack<br>to its sender's game!";;;"No need to be sorry :)"
 defense;Firewall;;"Return any attack<br>to its sender's game!";;;"No need to be sorry :)"
-bonus;Pair programming;;<div style='margin-top: -30px'>Draw 3 cards with another player and agree on how to use them or discard everything!</div>;;;"He mate!"
-bonus;Pair programming;;<div style='margin-top: -30px'>Draw 3 cards with another player and agree on how to use them or discard everything!</div>;;;"He mate!"
-bonus;Pair programming;;<div style='margin-top: -30px'>Draw 3 cards with another player and agree on how to use them or discard everything!</div>;;;"He mate!"
+bonus;Pair programming;;<div style='margin-top: -30px'>Draw 3 cards with another player and agree on how to use them or discard everything!</div>;;;"Hey mate!"
+bonus;Pair programming;;<div style='margin-top: -30px'>Draw 3 cards with another player and agree on how to use them or discard everything!</div>;;;"Hey mate!"
+bonus;Pair programming;;<div style='margin-top: -30px'>Draw 3 cards with another player and agree on how to use them or discard everything!</div>;;;"Hey mate!"
 bonus;Pull request;<div style='margin-top: -30px'>git checkout varA && git rebase varB<div class=or>or</div>git checkout varB && git rebase varA</div>;<div style='margin-top: -20px'>Merge (rebase)<br>vars A and B. Fusion your 2 vars in 1.</div>;;;
 bonus;Pull request;<div style='margin-top: -30px'>git checkout varA && git rebase varB<div class=or>or</div>git checkout varB && git rebase varA</div>;<div style='margin-top: -20px'>Merge (rebase)<br>vars A and B. Fusion your 2 vars in 1.</div>;;;
 bonus;Continuous deployment;"if (var % 7 == 0) {<br>&nbsp;&nbsp;playTwice();<br>}";<div style='margin-top: -20px'>Play twice when the selected var is a<br>multiple of 7.</div>;"&#10063;";"&#9850;";
@@ -46,8 +46,8 @@ bonus;Feature Flipping;"<center>featureOff = true;</center>";"Delete 1 card anyw
 bonus;Feature Flipping;"<center>featureOff = true;</center>";"Delete 1 card anywhere<br>(any vars, any hands).";;;No mercy!
 bonus;Open Source;;"<div style='margin-top: -30px'>All players put their hand face up on the table for 2 rounds.</div>";;"&#9844;";"...and star us on Github :)<div class=link>http://github.com/code-with-cards</div>"
 bonus;Open Source;;"<div style='margin-top: -30px'>All players put their hand face up on the table for 2 rounds.</div>";;"&#9844;";"...and star us on Github :)<div class=link>http://github.com/code-with-cards</div>"
-bonus;Mob Programming;;<div style='margin-top: -30px'>All cards change hands in the direction decided by the card player</div>;;;"He guys, let's work <br>as a team!"
-bonus;Mob Programming;;<div style='margin-top: -30px'>All cards change hands in the direction decided by the card player</div>;;;"He guys, let's work <br>as a team!"
+bonus;Mob Programming;;<div style='margin-top: -30px'>All cards change hands in the direction decided by the card player</div>;;;"Hey folks, let's work <br>as a team!"
+bonus;Mob Programming;;<div style='margin-top: -30px'>All cards change hands in the direction decided by the card player</div>;;;"Hey folks, let's work <br>as a team!"
 value;Increment by 1;"<div class=simpleCode>var += 1;</div>";"Increment one of <br>your var by 1.";;;42 here we come!
 value;Increment by 1;"<div class=simpleCode>var += 1;</div>";"Increment one of <br>your var by 1.";;;42 here we come!
 value;Increment by 1;"<div class=simpleCode>var += 1;</div>";"Increment one of <br>your var by 1.";;;42 here we come!
