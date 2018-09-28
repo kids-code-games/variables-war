@@ -119,11 +119,11 @@ More detailed [game rules are available here](./GameRules.md).
 # Too much talking, I want to play!
 
 
-| Order a physical deck                | Print your own deck and play!    |
-|--------------------------------------|----------------------------------|
-| *Coming soon, stay tuned..*          | *Print it now, obviously Free!*  |
-| Star us so we could ping you back... | [Just print this page](https://kids-code-games.github.io/variables-war/card-maker/01_ourdeck/card-GENERATED.html) |
-| <div align="center"><img width="150" src="./images/star.png" alt="Star Variables War Card Game"><div> | <div align="center"><a href="https://kids-code-games.github.io/variables-war/card-maker/01_ourdeck/card-GENERATED.html"><img width="150" src="./images/printme.png" alt="Print Variables War Card Game"></a><div><li><a href="https://kids-code-games.github.io/variables-war/card-maker/01_ourdeck/card-GENERATED.html">English version</a></li><li><a href="https://kids-code-games.github.io/variables-war/card-maker/04_french/card-GENERATED.html">French version</a></li> |
+| Order a physical deck                                        | Print your own deck and play!                                |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| *Coming soon, stay tuned..*                                  | *Print it now, obviously Free!*                              |
+| Star us so we could ping you back...                         | [Just print this page](https://kids-code-games.github.io/variables-war/card-maker/01_ourdeck/card-GENERATED.html) |
+| <div align="center"><img width="150" src="./images/star.png" alt="Star Variables War Card Game"><div> | <div align="center"><a href="https://kids-code-games.github.io/variables-war/card-maker/01_ourdeck/card-GENERATED.html"><img width="150" src="./images/printme.png" alt="Print Variables War Card Game"></a><div><li><a href="https://kids-code-games.github.io/variables-war/card-maker/01_ourdeck/card-GENERATED.html">English version</a></li><li><a href="https://kids-code-games.github.io/variables-war/card-maker/04_french/card-GENERATED.html">French version</a></li><li><a href="https://kids-code-games.github.io/variables-war/card-maker/05_chinese/card-GENERATED.html">Chinese version</a></li> |
 
 # Want to contribute, suggest cards?
 
