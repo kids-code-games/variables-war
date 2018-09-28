@@ -1,0 +1,121 @@
+type;title;code;description;vars;rounds;comment
+attack;Code Freeze;"while (turns < 2) {<br>&nbsp;&nbsp;freezeAllVars();<br>}";"<div style='margin-top: -20px;'>Bloquer toutes les<br>variables pour 2 tours.</div>";"&#10063;&#10063;";"&#9844;";"<div style='margin-top: -10px'>Pause café!</div>"
+attack;Code Freeze;"while (turns < 2) {<br>&nbsp;&nbsp;freezeAllVars();<br>}";"<div style='margin-top: -20px;'>Bloquer toutes les<br>variables pour 2 tours.</div>";"&#10063;&#10063;";"&#9844;";"<div style='margin-top: -10px'>Pause café!</div>"
+attack;Code Freeze;"while (turns < 2) {<br>&nbsp;&nbsp;freezeAllVars();<br>}";"<div style='margin-top: -20px;'>Bloquer toutes les<br>variables pour 2 tours.</div>";"&#10063;&#10063;";"&#9844;";"<div style='margin-top: -10px'>Pause café!</div>"
+attack;Variable Freeze;"while (turns < 2) {<br>&nbsp;&nbsp;freezeOneVar();<br>}";"<div style='margin-top: -20px;'>Bloquer 1 variable<br>pour 2 tours.</div>";"&#10063;";"&#9844;";"<div style='margin-top: -20px'>Vous utilisez encore CVS?</div>"
+attack;Variable Freeze;"while (turns < 2) {<br>&nbsp;&nbsp;freezeOneVar();<br>}";"<div style='margin-top: -20px;'>Bloquer 1 variable<br>pour 2 tours.</div>";"&#10063;";"&#9844;";"<div style='margin-top: -20px'>Vous utilisez encore CVS?</div>"
+attack;Variable Freeze;"while (turns < 2) {<br>&nbsp;&nbsp;freezeOneVar();<br>}";"<div style='margin-top: -20px;'>Bloquer 1 variable<br>pour 2 tours.</div>";"&#10063;";"&#9844;";"<div style='margin-top: -20px'>Vous utilisez encore CVS?</div>"
+attack;Legacy code;;"<div style='margin-top: -30px'>Ne jouer que des cartes <br>jaunes &#8723;1 ou &#8723;2 sur<br>vos variables.</div>";"&#10063;&#10063;";"&#9850;";"<div style='margin-top: 20px'>Profitez de l'instant présent :)</div>"
+attack;Legacy code;;"<div style='margin-top: -30px'>Ne jouer que des cartes <br>jaunes &#8723;1 ou &#8723;2 sur<br>vos variables.</div>";"&#10063;&#10063;";"&#9850;";"<div style='margin-top: 20px'>Profitez de l'instant présent :)</div>"
+attack;Legacy code;;"<div style='margin-top: -30px'>Ne jouer que des cartes <br>jaunes &#8723;1 ou &#8723;2 sur<br>vos variables.</div>";"&#10063;&#10063;";"&#9850;";"<div style='margin-top: 20px'>Profitez de l'instant présent :)</div>"
+attack;Legacy code;;"<div style='margin-top: -30px'>Ne jouer que des cartes <br>jaunes &#8723;1 ou &#8723;2 sur<br>vos variables.</div>";"&#10063;&#10063;";"&#9850;";"<div style='margin-top: 20px'>Profitez de l'instant présent :)</div>"
+attack;Legacy code;;"<div style='margin-top: -30px'>Ne jouer que des cartes <br>jaunes &#8723;1 ou &#8723;2 sur<br>vos variables.</div>";"&#10063;&#10063;";"&#9850;";"<div style='margin-top: 20px'>Profitez de l'instant présent :)</div>"
+attack;Legacy code;;"<div style='margin-top: -30px'>Ne jouer que des cartes <br>jaunes &#8723;1 ou &#8723;2 sur<br>vos variables.</div>";"&#10063;&#10063;";"&#9850;";"<div style='margin-top: 20px'>Profitez de l'instant présent :)</div>"
+attack;Condition;"if (varA &lt; varB) {<br>&nbsp;&nbsp;cancelCard();<br>}";"Jouer uniquement une carte améliorant cette condition.";"<div style='margin-top:-25px;'>&#10063;&#10063;</div>";"<div style='margin-top:-25px;'>&#9850;</div>";
+attack;Condition;"if (varA &lt; varB) {<br>&nbsp;&nbsp;cancelCard();<br>}";"Jouer uniquement une carte améliorant cette condition.";"<div style='margin-top:-25px;'>&#10063;&#10063;</div>";"<div style='margin-top:-25px;'>&#9850;</div>";
+attack;Condition;"if (varA &lt; varB) {<br>&nbsp;&nbsp;cancelCard();<br>}";"Jouer uniquement une carte améliorant cette condition.";"<div style='margin-top:-25px;'>&#10063;&#10063;</div>";"<div style='margin-top:-25px;'>&#9850;</div>";
+attack;Condition;"if (varB &lt; varA) {<br>&nbsp;&nbsp;cancelCard();<br>}";"Jouer uniquement une carte améliorant cette condition.";"<div style='margin-top:-25px;'>&#10063;&#10063;</div>";"<div style='margin-top:-25px;'>&#9850;</div>";
+attack;Condition;"if (varB &lt; varA) {<br>&nbsp;&nbsp;cancelCard();<br>}";"Jouer uniquement une carte améliorant cette condition.";"<div style='margin-top:-25px;'>&#10063;&#10063;</div>";"<div style='margin-top:-25px;'>&#9850;</div>";
+attack;Condition;"if (varB &lt; varA) {<br>&nbsp;&nbsp;cancelCard();<br>}";"Jouer uniquement une carte améliorant cette condition.";"<div style='margin-top:-25px;'>&#10063;&#10063;</div>";"<div style='margin-top:-25px;'>&#9850;</div>";
+attack;Memory Leak;"if (var % 3 == 0) {<br>&nbsp;&nbsp;var = 0;<br>}";Les variables multiples de 3 retournent à 0.;"&#10063;";"&#9850;";
+attack;Memory Leak;"if (var % 3 == 0) {<br>&nbsp;&nbsp;var = 0;<br>}";Les variables multiples de 3 retournent à 0.;"&#10063;";"&#9850;";
+defense;Rollback;;Retirer la dernière carte du jeu sélectionné.;;;"La vie est injuste,<br>désolé Calimero !"
+defense;Rollback;;Retirer la dernière carte du jeu sélectionné.;;;"La vie est injuste,<br>désolé Calimero !"
+defense;Rollback;;Retirer la dernière carte du jeu sélectionné.;;;"La vie est injuste,<br>désolé Calimero !"
+defense;Rollback;;Retirer la dernière carte du jeu sélectionné.;;;"La vie est injuste,<br>désolé Calimero !"
+defense;Rollback;;Retirer la dernière carte du jeu sélectionné.;;;"La vie est injuste,<br>désolé Calimero !"
+defense;Refactoring;;Retirer un carte <br>"Legacy code" ou "Condition".;;;"Cadeau!"
+defense;Refactoring;;Retirer un carte <br>"Legacy code" ou "Condition".;;;"Cadeau!"
+defense;Refactoring;;Retirer un carte <br>"Legacy code" ou "Condition".;;;"Cadeau!"
+defense;Refactoring;;Retirer un carte <br>"Legacy code" ou "Condition".;;;"Cadeau!"
+defense;Refactoring;;Retirer un carte <br>"Legacy code" ou "Condition".;;;"Cadeau!"
+defense;Refactoring;;Retirer un carte <br>"Legacy code" ou "Condition".;;;"Cadeau!"
+defense;Refactoring;;Retirer un carte <br>"Legacy code" ou "Condition".;;;"Cadeau!"
+defense;Firewall;;"Retourner une attaque<br>contre celui qui l'a lancée.";;;"Pas besoin d'être désolé :)"
+defense;Firewall;;"Retourner une attaque<br>contre celui qui l'a lancée.";;;"Pas besoin d'être désolé :)"
+bonus;Pair programming;;<div style='margin-top: -30px'>Piocher 3 cartes avec un autre joueur et convenez de la façon de les utiliser ou jetez les toutes.</div>;;;"Ouech gros!"
+bonus;Pair programming;;<div style='margin-top: -30px'>Piocher 3 cartes avec un autre joueur et convenez de la façon de les utiliser ou jetez les toutes.</div>;;;"Ouech gros!"
+bonus;Pair programming;;<div style='margin-top: -30px'>Piocher 3 cartes avec un autre joueur et convenez de la façon de les utiliser ou jetez les toutes.</div>;;;"Ouech gros!"
+bonus;Pull request;<div style='margin-top: -30px'>git checkout varA && git rebase varB<div class=or>or</div>git checkout varB && git rebase varA</div>;<div style='margin-top: -20px'>Fusionner votre <br>variable B sur votre <br>variable A (ou l'inverse).</div>;;;
+bonus;Pull request;<div style='margin-top: -30px'>git checkout varA && git rebase varB<div class=or>or</div>git checkout varB && git rebase varA</div>;<div style='margin-top: -20px'>Fusionner votre <br>variable B sur votre <br>variable A (ou l'inverse).</div>;;;
+bonus;Continuous deployment;"if (var % 7 == 0) {<br>&nbsp;&nbsp;playTwice();<br>}";<div style='margin-top: -20px'>Rejouer quand<br>la variable est<br>un multiple de 7.</div>;"&#10063;";"&#9850;";
+bonus;Continuous deployment;"if (var % 5 == 0) {<br>&nbsp;&nbsp;playTwice();<br>}";<div style='margin-top: -20px'>Rejouer quand<br>la variable est<br>un multiple de 5.</div>;"&#10063;";"&#9850;";
+bonus;Feature Flipping;"<center>featureOff = true;</center>";"Supprimer 1 carte<br>(n'importe quelle variable ou main).";;;Pas de quartier!
+bonus;Feature Flipping;"<center>featureOff = true;</center>";"Supprimer 1 carte<br>(n'importe quelle variable ou main)..";;;Pas de quartier!
+bonus;Feature Flipping;"<center>featureOff = true;</center>";"Supprimer 1 carte<br>(n'importe quelle variable ou main)..";;;Pas de quartier!
+bonus;Feature Flipping;"<center>featureOff = true;</center>";"Supprimer 1 carte<br>(n'importe quelle variable ou main)..";;;Pas de quartier!
+bonus;Open Source;;"<div style='margin-top: -30px'>Tous les joueurs doivent jouer avec leurs mains visibles pendant 2 tours</div>";;"&#9844;";"<div style='font-size: 0.7em;'>...et nous mettre une étoile sur Github :)</div><div class=link>http://github.com/code-with-cards</div>"
+bonus;Open Source;;"<div style='margin-top: -30px'>Tous les joueurs doivent jouer avec leurs mains visibles pendant 2 tours</div>";;"&#9844;";"<div style='font-size: 0.7em;'>...et nous mettre une étoile sur Github :)</div><div class=link>http://github.com/code-with-cards</div>"
+bonus;Mob Programming;;<div style='margin-top: -30px'>Tout le monde passe sa main à son voisin (dans le sens décidé par le joueur de cette carte)</div>;;;"Allez, travaillons comme une équipe !"
+bonus;Mob Programming;;<div style='margin-top: -30px'>Tout le monde passe sa main à son voisin (dans le sens décidé par le joueur de cette carte)</div>;;;"Allez, travaillons comme une équipe !"
+value;Increment by 1;"<div class=simpleCode>var += 1;</div>";"Ajouter 1 à l'une<br>de vos cartes.";;;42 me voilà !
+value;Increment by 1;"<div class=simpleCode>var += 1;</div>";"Ajouter 1 à l'une<br>de vos cartes.";;;42 me voilà !
+value;Increment by 1;"<div class=simpleCode>var += 1;</div>";"Ajouter 1 à l'une<br>de vos cartes.";;;42 me voilà !
+value;Increment by 1;"<div class=simpleCode>var += 1;</div>";"Ajouter 1 à l'une<br>de vos cartes.";;;42 me voilà !
+value;Increment by 1;"<div class=simpleCode>var += 1;</div>";"Ajouter 1 à l'une<br>de vos cartes.";;;42 me voilà !
+value;Increment by 1;"<div class=simpleCode>var += 1;</div>";"Ajouter 1 à l'une<br>de vos cartes.";;;42 me voilà !
+value;Increment by 1;"<div class=simpleCode>var += 1;</div>";"Ajouter 1 à l'une<br>de vos cartes.";;;42 me voilà !
+value;Increment by 1;"<div class=simpleCode>var += 1;</div>";"Ajouter 1 à l'une<br>de vos cartes.";;;42 me voilà !
+value;Increment by 1;"<div class=simpleCode>var += 1;</div>";"Ajouter 1 à l'une<br>de vos cartes.";;;42 me voilà !
+value;Increment by 1;"<div class=simpleCode>var += 1;</div>";"Ajouter 1 à l'une<br>de vos cartes.";;;42 me voilà !
+value;Increment by 2;"<div class=simpleCode>var += 2;</div>";Ajouter 2 à l'une<br>de vos cartes.;;;
+value;Increment by 2;"<div class=simpleCode>var += 2;</div>";Ajouter 2 à l'une<br>de vos cartes.;;;
+value;Increment by 2;"<div class=simpleCode>var += 2;</div>";Ajouter 2 à l'une<br>de vos cartes.;;;
+value;Increment by 2;"<div class=simpleCode>var += 2;</div>";Ajouter 2 à l'une<br>de vos cartes.;;;
+value;Increment by 2;"<div class=simpleCode>var += 2;</div>";Ajouter 2 à l'une<br>de vos cartes.;;;
+value;Increment by 2;"<div class=simpleCode>var += 2;</div>";Ajouter 2 à l'une<br>de vos cartes.;;;
+value;Increment by 2;"<div class=simpleCode>var += 2;</div>";Ajouter 2 à l'une<br>de vos cartes.;;;
+value;Increment by 2;"<div class=simpleCode>var += 2;</div>";Ajouter 2 à l'une<br>de vos cartes.;;;
+value;Increment by 2;"<div class=simpleCode>var += 2;</div>";Ajouter 2 à l'une<br>de vos cartes.;;;
+value;Increment by 2;"<div class=simpleCode>var += 2;</div>";Ajouter 2 à l'une<br>de vos cartes.;;;
+value;Increment by 3;"<div class=simpleCode>var += 3;</div>";Ajouter 3 à l'une<br>de vos cartes.;;;
+value;Increment by 3;"<div class=simpleCode>var += 3;</div>";Ajouter 3 à l'une<br>de vos cartes.;;;
+value;Increment by 3;"<div class=simpleCode>var += 3;</div>";Ajouter 3 à l'une<br>de vos cartes.;;;
+value;Increment by 3;"<div class=simpleCode>var += 3;</div>";Ajouter 3 à l'une<br>de vos cartes.;;;
+value;Increment by 3;"<div class=simpleCode>var += 3;</div>";Ajouter 3 à l'une<br>de vos cartes.;;;
+value;Increment by 3;"<div class=simpleCode>var += 3;</div>";Ajouter 3 à l'une<br>de vos cartes.;;;
+value;Increment by 3;"<div class=simpleCode>var += 3;</div>";Ajouter 3 à l'une<br>de vos cartes.;;;
+value;Increment by 3;"<div class=simpleCode>var += 3;</div>";Ajouter 3 à l'une<br>de vos cartes.;;;
+value;Increment by 3;"<div class=simpleCode>var += 3;</div>";Ajouter 3 à l'une<br>de vos cartes.;;;
+value;Increment by 3;"<div class=simpleCode>var += 3;</div>";Ajouter 3 à l'une<br>de vos cartes.;;;
+value;Increment by 5;"<div class=simpleCode>var += 5;</div>";Ajouter 5 à l'une<br>de vos cartes.;;;
+value;Increment by 5;"<div class=simpleCode>var += 5;</div>";Ajouter 5 à l'une<br>de vos cartes.;;;
+value;Increment by 5;"<div class=simpleCode>var += 5;</div>";Ajouter 5 à l'une<br>de vos cartes.;;;
+value;Increment by 5;"<div class=simpleCode>var += 5;</div>";Ajouter 5 à l'une<br>de vos cartes.;;;
+value;Increment by 5;"<div class=simpleCode>var += 5;</div>";Ajouter 5 à l'une<br>de vos cartes.;;;
+value;Increment by 5;"<div class=simpleCode>var += 5;</div>";Ajouter 5 à l'une<br>de vos cartes.;;;
+value;Increment by 5;"<div class=simpleCode>var += 5;</div>";Ajouter 5 à l'une<br>de vos cartes.;;;
+value;Increment by 5;"<div class=simpleCode>var += 5;</div>";Ajouter 5 à l'une<br>de vos cartes.;;;
+value;Increment by 8;"<div class=simpleCode>var += 8;</div>";Ajouter 8 à l'une<br>de vos cartes.;;;
+value;Increment by 8;"<div class=simpleCode>var += 8;</div>";Ajouter 8 à l'une<br>de vos cartes.;;;
+value;Increment by 8;"<div class=simpleCode>var += 8;</div>";Ajouter 8 à l'une<br>de vos cartes.;;;
+value;Increment by 8;"<div class=simpleCode>var += 8;</div>";Ajouter 8 à l'une<br>de vos cartes.;;;
+value;Decrement by 1;"<div class=simpleCode>var -= 1;</div>";Retirer 1 à l'une<br>de vos cartes.;;;
+value;Decrement by 1;"<div class=simpleCode>var -= 1;</div>";Retirer 1 à l'une<br>de vos cartes.;;;
+value;Decrement by 1;"<div class=simpleCode>var -= 1;</div>";Retirer 1 à l'une<br>de vos cartes.;;;
+value;Decrement by 1;"<div class=simpleCode>var -= 1;</div>";Retirer 1 à l'une<br>de vos cartes.;;;
+value;Decrement by 1;"<div class=simpleCode>var -= 1;</div>";Retirer 1 à l'une<br>de vos cartes.;;;
+value;Decrement by 1;"<div class=simpleCode>var -= 1;</div>";Retirer 1 à l'une<br>de vos cartes.;;;
+value;Decrement by 1;"<div class=simpleCode>var -= 1;</div>";Retirer 1 à l'une<br>de vos cartes.;;;
+value;Decrement by 2;"<div class=simpleCode>var -= 2;</div>";Retirer 2 à l'une<br>de vos cartes.;;;
+value;Decrement by 2;"<div class=simpleCode>var -= 2;</div>";Retirer 2 à l'une<br>de vos cartes.;;;
+value;Decrement by 2;"<div class=simpleCode>var -= 2;</div>";Retirer 2 à l'une<br>de vos cartes.;;;
+value;Decrement by 2;"<div class=simpleCode>var -= 2;</div>";Retirer 2 à l'une<br>de vos cartes.;;;
+value;Repeat 2;"&nbsp;&nbsp;&nbsp;&nbsp;2 times {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...<br>&nbsp;&nbsp;&nbsp;&nbsp;}";La prochaine carte jaune compte double.;;;
+value;Repeat 2;"&nbsp;&nbsp;&nbsp;&nbsp;2 times {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...<br>&nbsp;&nbsp;&nbsp;&nbsp;}";La prochaine carte jaune compte double.;;;
+value;Repeat 2;"&nbsp;&nbsp;&nbsp;&nbsp;2 times {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...<br>&nbsp;&nbsp;&nbsp;&nbsp;}";La prochaine carte jaune compte double.;;;
+value;Repeat 3;"&nbsp;&nbsp;&nbsp;&nbsp;3 times {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...<br>&nbsp;&nbsp;&nbsp;&nbsp;}";La prochaine carte jaune compte triple.;;;Réutiliser c'est être attentif
+value;Repeat 3;"&nbsp;&nbsp;&nbsp;&nbsp;3 times {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...<br>&nbsp;&nbsp;&nbsp;&nbsp;}";La prochaine carte jaune compte triple.;;;Réutiliser c'est être attentif
+value;Repeat ${PlayersCount};"val n = nbPlayers;<br>(1 to n).foreach {<br>&nbsp;&nbsp;...<br>}";La prochaine carte jaune compte autant qu'il y a de joueurs à table.;;;
+other;A;;;;;
+other;B;;;;;
+other;A;;;;;
+other;B;;;;;
+other;A;;;;;
+other;B;;;;;
+other;A;;;;;
+other;B;;;;;
+other;A;;;;;
+other;B;;;;;
+other;A;;;;;
+other;B;;;;;
