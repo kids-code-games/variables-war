@@ -1,0 +1,121 @@
+type;title;code;description;vars;rounds;comment
+attack;代码冻结;"while (turns < 2) {<br>&nbsp;&nbsp;freezeAllVars();<br>}";冻结所有变量 <br>2 轮。;"&#10063;&#10063;";"&#9844;";"<div style='margin-top: -20px'>茶歇时间！</div>"
+attack;代码冻结;"while (turns < 2) {<br>&nbsp;&nbsp;freezeAllVars();<br>}";冻结所有变量 <br>2 轮。;"&#10063;&#10063;";"&#9844;";"<div style='margin-top: -20px'>茶歇时间！</div>"
+attack;代码冻结;"while (turns < 2) {<br>&nbsp;&nbsp;freezeAllVars();<br>}";冻结所有变量 <br>2 轮。;"&#10063;&#10063;";"&#9844;";"<div style='margin-top: -20px'>茶歇时间！</div>"
+attack;变量冻结;"while (turns < 2) {<br>&nbsp;&nbsp;freezeOneVar();<br>}";冻结 1 个变量 <br>2 轮。;"&#10063;";"&#9844;";"<div style='margin-top: -20px'>你还在使用 CVS 吗？</div>"
+attack;变量冻结;"while (turns < 2) {<br>&nbsp;&nbsp;freezeOneVar();<br>}";冻结 1 个变量 <br>2 轮。;"&#10063;";"&#9844;";"<div style='margin-top: -20px'>你还在使用 CVS 吗？</div>"
+attack;变量冻结;"while (turns < 2) {<br>&nbsp;&nbsp;freezeOneVar();<br>}";冻结 1 个变量 <br>2 轮。;"&#10063;";"&#9844;";"<div style='margin-top: -20px'>你还在使用 CVS 吗？</div>"
+attack;遗留代码;;"<div style='margin-top: -30px'>只允许对你的变量使用<br> +/-1 或 +/-2 <br>的数值卡牌。</div>";"&#10063;&#10063;";"&#9850;";"腾出时间享受当下 :)"
+attack;遗留代码;;"<div style='margin-top: -30px'>只允许对你的变量使用<br> +/-1 或 +/-2 <br>的数值卡牌。</div>";"&#10063;&#10063;";"&#9850;";"腾出时间享受当下 :)"
+attack;遗留代码;;"<div style='margin-top: -30px'>只允许对你的变量使用<br> +/-1 或 +/-2 <br>的数值卡牌。</div>";"&#10063;&#10063;";"&#9850;";"腾出时间享受当下 :)"
+attack;遗留代码;;"<div style='margin-top: -30px'>只允许对你的变量使用<br> +/-1 或 +/-2 <br>的数值卡牌。</div>";"&#10063;&#10063;";"&#9850;";"腾出时间享受当下 :)"
+attack;遗留代码;;"<div style='margin-top: -30px'>只允许对你的变量使用<br> +/-1 或 +/-2 <br>的数值卡牌。</div>";"&#10063;&#10063;";"&#9850;";"腾出时间享受当下 :)"
+attack;遗留代码;;"<div style='margin-top: -30px'>只允许对你的变量使用<br> +/-1 或 +/-2 <br>的数值卡牌。</div>";"&#10063;&#10063;";"&#9850;";"腾出时间享受当下 :)"
+attack;条件判断;"if (varA &lt; varB) {<br>&nbsp;&nbsp;cancelCard();<br>}";"禁止所有<br>使条件满足的卡牌。";"&#10063;&#10063;";"&#9850;";
+attack;条件判断;"if (varA &lt; varB) {<br>&nbsp;&nbsp;cancelCard();<br>}";"禁止所有<br>使条件满足的卡牌。";"&#10063;&#10063;";"&#9850;";
+attack;条件判断;"if (varA &lt; varB) {<br>&nbsp;&nbsp;cancelCard();<br>}";"禁止所有<br>使条件满足的卡牌。";"&#10063;&#10063;";"&#9850;";
+attack;条件判断;"if (varB &lt; varA) {<br>&nbsp;&nbsp;cancelCard();<br>}";"禁止所有<br>使条件满足的卡牌。";"&#10063;&#10063;";"&#9850;";
+attack;条件判断;"if (varB &lt; varA) {<br>&nbsp;&nbsp;cancelCard();<br>}";"禁止所有<br>使条件满足的卡牌。";"&#10063;&#10063;";"&#9850;";
+attack;条件判断;"if (varB &lt; varA) {<br>&nbsp;&nbsp;cancelCard();<br>}";"禁止所有<br>使条件满足的卡牌。";"&#10063;&#10063;";"&#9850;";
+attack;内存泄漏;"if (var % 3 == 0) {<br>&nbsp;&nbsp;var = 0;<br>}";若变量的值是 3 的倍数<br>则将其重置为 0。;"&#10063;";"&#9850;";
+attack;内存泄漏;"if (var % 3 == 0) {<br>&nbsp;&nbsp;var = 0;<br>}";若变量的值是 3 的倍数<br>则将其重置为 0。;"&#10063;";"&#9850;";
+defense;回滚;;移除放在任何玩家的<br>游戏上的最后一张牌。;;;"我们都懂，<br>生活并不公平。"
+defense;回滚;;移除放在任何玩家的<br>游戏上的最后一张牌。;;;"我们都懂，<br>生活并不公平。"
+defense;回滚;;移除放在任何玩家的<br>游戏上的最后一张牌。;;;"我们都懂，<br>生活并不公平。"
+defense;回滚;;移除放在任何玩家的<br>游戏上的最后一张牌。;;;"我们都懂，<br>生活并不公平。"
+defense;回滚;;移除放在任何玩家的<br>游戏上的最后一张牌。;;;"我们都懂，<br>生活并不公平。"
+defense;重构;;移除一张 <br> "遗留代码" 或 "条件判断" <br> 卡牌。;;;"干杯！"
+defense;重构;;移除一张 <br> "遗留代码" 或 "条件判断" <br> 卡牌。;;;"干杯！"
+defense;重构;;移除一张 <br> "遗留代码" 或 "条件判断" <br> 卡牌。;;;"干杯！"
+defense;重构;;移除一张 <br> "遗留代码" 或 "条件判断" <br> 卡牌。;;;"干杯！"
+defense;重构;;移除一张 <br> "遗留代码" 或 "条件判断" <br> 卡牌。;;;"干杯！"
+defense;重构;;移除一张 <br> "遗留代码" 或 "条件判断" <br> 卡牌。;;;"干杯！"
+defense;重构;;移除一张 <br> "遗留代码" 或 "条件判断" <br> 卡牌。;;;"干杯！"
+defense;防火墙;;"将任何攻击反弹给 <br> 发送方。";;;"不必道歉 :)"
+defense;防火墙;;"将任何攻击反弹给 <br> 发送方。";;;"不必道歉 :)"
+bonus;结对编程;;<div style='margin-top: -30px'>抽 3 张牌后<br>和另一玩家就如何使用<br>达成一致意见<br>或弃掉它们。</div>;;;"嘿，朋友！"
+bonus;结对编程;;<div style='margin-top: -30px'>抽 3 张牌后<br>和另一玩家就如何使用<br>达成一致意见<br>或弃掉它们。</div>;;;"嘿，朋友！"
+bonus;结对编程;;<div style='margin-top: -30px'>抽 3 张牌后<br>和另一玩家就如何使用<br>达成一致意见<br>或弃掉它们。</div>;;;"嘿，朋友！"
+bonus;合并请求;<div style='margin-top: -30px'>git checkout varA && git rebase varB<div class=or>或</div>git checkout varB && git rebase varA</div>;<div style='margin-top: -20px'>合并或变基 A 和 B。<br>将其中之一的所有<br>数值卡牌置于另一之上。</div>;;;
+bonus;合并请求;<div style='margin-top: -30px'>git checkout varA && git rebase varB<div class=or>或</div>git checkout varB && git rebase varA</div>;<div style='margin-top: -20px'>合并或变基 A 和 B。<br>将其中之一的所有<br>数值卡牌置于另一之上。</div>;;;
+bonus;持续部署;"if (var % 7 == 0) {<br>&nbsp;&nbsp;playTwice();<br>}";<div style='margin-top: -20px'>若所选变量是 7 的倍数<br>则视为使用 2 次。</div>;"&#10063;";"&#9850;";
+bonus;持续部署;"if (var % 5 == 0) {<br>&nbsp;&nbsp;playTwice();<br>}";<div style='margin-top: -20px'>若所选变量是 5 的倍数<br>则视为使用 2 次。</div>;"&#10063;";"&#9850;";
+bonus;特性切换;"<center>featureOff = true;</center>";"移除任意一张卡牌。<br>(变量或手牌皆可。)";;;毫不仁慈！
+bonus;特性切换;"<center>featureOff = true;</center>";"移除任意一张卡牌。<br>(变量或手牌皆可。)";;;毫不仁慈！
+bonus;特性切换;"<center>featureOff = true;</center>";"移除任意一张卡牌。<br>(变量或手牌皆可。)";;;毫不仁慈！
+bonus;特性切换;"<center>featureOff = true;</center>";"移除任意一张卡牌。<br>(变量或手牌皆可。)";;;毫不仁慈！
+bonus;开源;;"<div style='margin-top: -30px'>所有玩家展示手牌<br> 2 轮。</div>";;"&#9844;";"…并在 GitHub 赞我们 :)<div class=link>http://github.com/code-with-cards</div>"
+bonus;开源;;"<div style='margin-top: -30px'>所有玩家展示手牌<br> 2 轮。</div>";;"&#9844;";"…并在 GitHub 赞我们 :)<div class=link>http://github.com/code-with-cards</div>"
+bonus;Mob 编程;;<div style='margin-top: -30px'>所有玩家手牌<br>以顺或逆时针方向<br>易主一次。</div>;;;"嘿伙计们，<br>来团队合作吧！"
+bonus;Mob 编程;;<div style='margin-top: -30px'>所有玩家手牌<br>以顺或逆时针方向<br>易主一次。</div>;;;"嘿伙计们，<br>来团队合作吧！"
+value;自增 1;"<div class=simpleCode>var += 1;</div>";"使你的一个变量<br>自增 1。";;;42 我们来啦！
+value;自增 1;"<div class=simpleCode>var += 1;</div>";"使你的一个变量<br>自增 1。";;;42 我们来啦！
+value;自增 1;"<div class=simpleCode>var += 1;</div>";"使你的一个变量<br>自增 1。";;;42 我们来啦！
+value;自增 1;"<div class=simpleCode>var += 1;</div>";"使你的一个变量<br>自增 1。";;;42 我们来啦！
+value;自增 1;"<div class=simpleCode>var += 1;</div>";"使你的一个变量<br>自增 1。";;;42 我们来啦！
+value;自增 1;"<div class=simpleCode>var += 1;</div>";"使你的一个变量<br>自增 1。";;;42 我们来啦！
+value;自增 1;"<div class=simpleCode>var += 1;</div>";"使你的一个变量<br>自增 1。";;;42 我们来啦！
+value;自增 1;"<div class=simpleCode>var += 1;</div>";"使你的一个变量<br>自增 1。";;;42 我们来啦！
+value;自增 1;"<div class=simpleCode>var += 1;</div>";"使你的一个变量<br>自增 1。";;;42 我们来啦！
+value;自增 1;"<div class=simpleCode>var += 1;</div>";"使你的一个变量<br>自增 1。";;;42 我们来啦！
+value;自增 2;"<div class=simpleCode>var += 2;</div>";使你的一个变量<br>自增 2。;;;
+value;自增 2;"<div class=simpleCode>var += 2;</div>";使你的一个变量<br>自增 2。;;;
+value;自增 2;"<div class=simpleCode>var += 2;</div>";使你的一个变量<br>自增 2。;;;
+value;自增 2;"<div class=simpleCode>var += 2;</div>";使你的一个变量<br>自增 2。;;;
+value;自增 2;"<div class=simpleCode>var += 2;</div>";使你的一个变量<br>自增 2。;;;
+value;自增 2;"<div class=simpleCode>var += 2;</div>";使你的一个变量<br>自增 2。;;;
+value;自增 2;"<div class=simpleCode>var += 2;</div>";使你的一个变量<br>自增 2。;;;
+value;自增 2;"<div class=simpleCode>var += 2;</div>";使你的一个变量<br>自增 2。;;;
+value;自增 2;"<div class=simpleCode>var += 2;</div>";使你的一个变量<br>自增 2。;;;
+value;自增 2;"<div class=simpleCode>var += 2;</div>";使你的一个变量<br>自增 2。;;;
+value;自增 3;"<div class=simpleCode>var += 3;</div>";使你的一个变量<br>自增 3。;;;
+value;自增 3;"<div class=simpleCode>var += 3;</div>";使你的一个变量<br>自增 3。;;;
+value;自增 3;"<div class=simpleCode>var += 3;</div>";使你的一个变量<br>自增 3。;;;
+value;自增 3;"<div class=simpleCode>var += 3;</div>";使你的一个变量<br>自增 3。;;;
+value;自增 3;"<div class=simpleCode>var += 3;</div>";使你的一个变量<br>自增 3。;;;
+value;自增 3;"<div class=simpleCode>var += 3;</div>";使你的一个变量<br>自增 3。;;;
+value;自增 3;"<div class=simpleCode>var += 3;</div>";使你的一个变量<br>自增 3。;;;
+value;自增 3;"<div class=simpleCode>var += 3;</div>";使你的一个变量<br>自增 3。;;;
+value;自增 3;"<div class=simpleCode>var += 3;</div>";使你的一个变量<br>自增 3。;;;
+value;自增 3;"<div class=simpleCode>var += 3;</div>";使你的一个变量<br>自增 3。;;;
+value;自增 5;"<div class=simpleCode>var += 5;</div>";使你的一个变量<br>自增 5。;;;
+value;自增 5;"<div class=simpleCode>var += 5;</div>";使你的一个变量<br>自增 5。;;;
+value;自增 5;"<div class=simpleCode>var += 5;</div>";使你的一个变量<br>自增 5。;;;
+value;自增 5;"<div class=simpleCode>var += 5;</div>";使你的一个变量<br>自增 5。;;;
+value;自增 5;"<div class=simpleCode>var += 5;</div>";使你的一个变量<br>自增 5。;;;
+value;自增 5;"<div class=simpleCode>var += 5;</div>";使你的一个变量<br>自增 5。;;;
+value;自增 5;"<div class=simpleCode>var += 5;</div>";使你的一个变量<br>自增 5。;;;
+value;自增 5;"<div class=simpleCode>var += 5;</div>";使你的一个变量<br>自增 5。;;;
+value;自增 8;"<div class=simpleCode>var += 8;</div>";使你的一个变量<br>自增 8。;;;
+value;自增 8;"<div class=simpleCode>var += 8;</div>";使你的一个变量<br>自增 8。;;;
+value;自增 8;"<div class=simpleCode>var += 8;</div>";使你的一个变量<br>自增 8。;;;
+value;自增 8;"<div class=simpleCode>var += 8;</div>";使你的一个变量<br>自增 8。;;;
+value;自减 1;"<div class=simpleCode>var -= 1;</div>";使你的一个变量<br>自减 1。;;;
+value;自减 1;"<div class=simpleCode>var -= 1;</div>";使你的一个变量<br>自减 1。;;;
+value;自减 1;"<div class=simpleCode>var -= 1;</div>";使你的一个变量<br>自减 1。;;;
+value;自减 1;"<div class=simpleCode>var -= 1;</div>";使你的一个变量<br>自减 1。;;;
+value;自减 1;"<div class=simpleCode>var -= 1;</div>";使你的一个变量<br>自减 1。;;;
+value;自减 1;"<div class=simpleCode>var -= 1;</div>";使你的一个变量<br>自减 1。;;;
+value;自减 1;"<div class=simpleCode>var -= 1;</div>";使你的一个变量<br>自减 1。;;;
+value;自减 2;"<div class=simpleCode>var -= 2;</div>";使你的一个变量<br>自减 2。;;;
+value;自减 2;"<div class=simpleCode>var -= 2;</div>";使你的一个变量<br>自减 2。;;;
+value;自减 2;"<div class=simpleCode>var -= 2;</div>";使你的一个变量<br>自减 2。;;;
+value;自减 2;"<div class=simpleCode>var -= 2;</div>";使你的一个变量<br>自减 2。;;;
+value;重复 2;"&nbsp;&nbsp;&nbsp;&nbsp;2 times {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...<br>&nbsp;&nbsp;&nbsp;&nbsp;}";下一张黄色卡牌<br>数值翻倍。;;;
+value;重复 2;"&nbsp;&nbsp;&nbsp;&nbsp;2 times {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...<br>&nbsp;&nbsp;&nbsp;&nbsp;}";下一张黄色卡牌<br>数值翻倍。;;;
+value;重复 2;"&nbsp;&nbsp;&nbsp;&nbsp;2 times {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...<br>&nbsp;&nbsp;&nbsp;&nbsp;}";下一张黄色卡牌<br>数值翻倍。;;;
+value;重复 3;"&nbsp;&nbsp;&nbsp;&nbsp;3 times {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...<br>&nbsp;&nbsp;&nbsp;&nbsp;}";下一张黄色卡牌<br>数值变为三倍。;;;重用就是重用！
+value;重复 3;"&nbsp;&nbsp;&nbsp;&nbsp;3 times {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...<br>&nbsp;&nbsp;&nbsp;&nbsp;}";下一张黄色卡牌<br>数值变为三倍。;;;重用就是重用！
+value;重复 ${玩家数};"val n = nbPlayers;<br>(1 to n).foreach {<br>&nbsp;&nbsp;...<br>}";下一张黄色卡牌<br>数值变为玩家数的倍数。;;;
+other;A;;;;;
+other;B;;;;;
+other;A;;;;;
+other;B;;;;;
+other;A;;;;;
+other;B;;;;;
+other;A;;;;;
+other;B;;;;;
+other;A;;;;;
+other;B;;;;;
+other;A;;;;;
+other;B;;;;;
