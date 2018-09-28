@@ -635,7 +635,7 @@ table.page td {
   <span class="vars">&#10063;&nbsp;</span> 
   <span class="rounds">&nbsp;&#9850;</span> 
  </footer> 
-</div></td></tr><tr><td><div class="card defense"> 
+</div></td></tr><tr><td><div class="card attack"> 
  <!--
             Some value for the CSS
 
@@ -649,24 +649,24 @@ table.page td {
   <h1>Variable</h1> 
  </header> 
  <header class="varValue"> 
-  <h1>Rollback</h1> 
+  <h1>Deadline</h1> 
  </header> 
  <section> 
   <div class="mycode">
    
   </div> 
   <div class="description">
-   Remove last card put on the selected game.
+   Remove a Test Harness<br>&nbsp;
   </div> 
   <div class="comment">
-   We know, we know, life is unfair, thanks Calimero!
+   Just do it quick & dirty
   </div> 
  </section> 
  <footer> 
-  <span class="vars">&nbsp;</span> 
+  <span class="vars">&#10063;&nbsp;</span> 
   <span class="rounds">&nbsp;</span> 
  </footer> 
-</div></td><td><div class="card defense"> 
+</div></td><td><div class="card attack"> 
  <!--
             Some value for the CSS
 
@@ -680,21 +680,21 @@ table.page td {
   <h1>Variable</h1> 
  </header> 
  <header class="varValue"> 
-  <h1>Rollback</h1> 
+  <h1>Deadline</h1> 
  </header> 
  <section> 
   <div class="mycode">
    
   </div> 
   <div class="description">
-   Remove last card put on the selected game.
+   Remove a Test Harness<br>&nbsp;
   </div> 
   <div class="comment">
-   We know, we know, life is unfair, thanks Calimero!
+   Just do it quick & dirty
   </div> 
  </section> 
  <footer> 
-  <span class="vars">&nbsp;</span> 
+  <span class="vars">&#10063;&nbsp;</span> 
   <span class="rounds">&nbsp;</span> 
  </footer> 
 </div></td><td><div class="card defense"> 
@@ -804,17 +804,17 @@ table.page td {
   <h1>Variable</h1> 
  </header> 
  <header class="varValue"> 
-  <h1>Refactoring</h1> 
+  <h1>Rollback</h1> 
  </header> 
  <section> 
   <div class="mycode">
    
   </div> 
   <div class="description">
-   Remove a <br>"Legacy code" or "Condition" card.
+   Remove last card put on the selected game.
   </div> 
   <div class="comment">
-   Cheers!
+   We know, we know, life is unfair, thanks Calimero!
   </div> 
  </section> 
  <footer> 
@@ -835,17 +835,17 @@ table.page td {
   <h1>Variable</h1> 
  </header> 
  <header class="varValue"> 
-  <h1>Refactoring</h1> 
+  <h1>Rollback</h1> 
  </header> 
  <section> 
   <div class="mycode">
    
   </div> 
   <div class="description">
-   Remove a <br>"Legacy code" or "Condition" card.
+   Remove last card put on the selected game.
   </div> 
   <div class="comment">
-   Cheers!
+   We know, we know, life is unfair, thanks Calimero!
   </div> 
  </section> 
  <footer> 
@@ -1021,6 +1021,68 @@ table.page td {
   <h1>Variable</h1> 
  </header> 
  <header class="varValue"> 
+  <h1>Refactoring</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   
+  </div> 
+  <div class="description">
+   Remove a <br>"Legacy code" or "Condition" card.
+  </div> 
+  <div class="comment">
+   Cheers!
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
+</div></td><td><div class="card defense"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header class="varLabel"> 
+  <h1>Variable</h1> 
+ </header> 
+ <header class="varValue"> 
+  <h1>Refactoring</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   
+  </div> 
+  <div class="description">
+   Remove a <br>"Legacy code" or "Condition" card.
+  </div> 
+  <div class="comment">
+   Cheers!
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
+</div></td><td><div class="card defense"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header class="varLabel"> 
+  <h1>Variable</h1> 
+ </header> 
+ <header class="varValue"> 
   <h1>Firewall</h1> 
  </header> 
  <section> 
@@ -1069,7 +1131,7 @@ table.page td {
   <span class="vars">&nbsp;</span> 
   <span class="rounds">&nbsp;</span> 
  </footer> 
-</div></td><td><div class="card bonus"> 
+</div></td></tr><tr><td><div class="card defense"> 
  <!--
             Some value for the CSS
 
@@ -1083,21 +1145,52 @@ table.page td {
   <h1>Variable</h1> 
  </header> 
  <header class="varValue"> 
-  <h1>Pair programming</h1> 
+  <h1>Test Harness</h1> 
  </header> 
  <section> 
   <div class="mycode">
-   
+   <div style='margin-top: -10px;'>expect(code)<br>&nbsp;&nbsp;.toBe(correct);</div>
   </div> 
   <div class="description">
-   <div style='margin-top: -30px'>Draw 3 cards with another player and agree on how to use them or discard everything!</div>
+   Limits value to -/+1 and -/+2 but forbids Memory Leak and Condition
   </div> 
   <div class="comment">
-   Hey mate!
+   
   </div> 
  </section> 
  <footer> 
-  <span class="vars">&nbsp;</span> 
+  <span class="vars">&#10063;&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
+</div></td><td><div class="card defense"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header class="varLabel"> 
+  <h1>Variable</h1> 
+ </header> 
+ <header class="varValue"> 
+  <h1>Test Harness</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   <div style='margin-top: -10px;'>expect(code)<br>&nbsp;&nbsp;.toBe(correct);</div>
+  </div> 
+  <div class="description">
+   Limits value to -/+1 and -/+2 but forbids Memory Leak and Condition
+  </div> 
+  <div class="comment">
+   
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&#10063;&nbsp;</span> 
   <span class="rounds">&nbsp;</span> 
  </footer> 
 </div></td><td><div class="card bonus"> 
@@ -1131,7 +1224,38 @@ table.page td {
   <span class="vars">&nbsp;</span> 
   <span class="rounds">&nbsp;</span> 
  </footer> 
-</div></td></tr><tr><td><div class="card bonus"> 
+</div></td><td><div class="card bonus"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header class="varLabel"> 
+  <h1>Variable</h1> 
+ </header> 
+ <header class="varValue"> 
+  <h1>Pair programming</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   
+  </div> 
+  <div class="description">
+   <div style='margin-top: -30px'>Draw 3 cards with another player and agree on how to use them or discard everything!</div>
+  </div> 
+  <div class="comment">
+   Hey mate!
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
+</div></td></tr></table><table class="page"><tr><td><div class="card bonus"> 
  <!--
             Some value for the CSS
 
@@ -1255,7 +1379,7 @@ table.page td {
   <span class="vars">&#10063;&nbsp;</span> 
   <span class="rounds">&nbsp;&#9850;</span> 
  </footer> 
-</div></td></tr></table><table class="page"><tr><td><div class="card bonus"> 
+</div></td></tr><tr><td><div class="card bonus"> 
  <!--
             Some value for the CSS
 
@@ -1379,7 +1503,7 @@ table.page td {
   <span class="vars">&nbsp;</span> 
   <span class="rounds">&nbsp;</span> 
  </footer> 
-</div></td></tr><tr><td><div class="card bonus"> 
+</div></td></tr></table><table class="page"><tr><td><div class="card bonus"> 
  <!--
             Some value for the CSS
 
@@ -1503,7 +1627,7 @@ table.page td {
   <span class="vars">&nbsp;</span> 
   <span class="rounds">&nbsp;</span> 
  </footer> 
-</div></td></tr></table><table class="page"><tr><td><div class="card bonus"> 
+</div></td></tr><tr><td><div class="card bonus"> 
  <!--
             Some value for the CSS
 
@@ -1627,130 +1751,6 @@ table.page td {
   <span class="vars">&nbsp;</span> 
   <span class="rounds">&nbsp;</span> 
  </footer> 
-</div></td></tr><tr><td><div class="card value"> 
- <!--
-            Some value for the CSS
-
-           type: attack, defense, bonus, value
-           stack: <empty>, all, one
-           rounds: <empty>, two, unlimited
-
-           https://www.w3schools.com/charsets/ref_utf_symbols.asp
-        --> 
- <header class="varLabel"> 
-  <h1>Variable</h1> 
- </header> 
- <header class="varValue"> 
-  <h1>Increment by 1</h1> 
- </header> 
- <section> 
-  <div class="mycode">
-   <div class=simpleCode>var += 1;</div>
-  </div> 
-  <div class="description">
-   Increment one of <br>your var by 1.
-  </div> 
-  <div class="comment">
-   42 here we come!
-  </div> 
- </section> 
- <footer> 
-  <span class="vars">&nbsp;</span> 
-  <span class="rounds">&nbsp;</span> 
- </footer> 
-</div></td><td><div class="card value"> 
- <!--
-            Some value for the CSS
-
-           type: attack, defense, bonus, value
-           stack: <empty>, all, one
-           rounds: <empty>, two, unlimited
-
-           https://www.w3schools.com/charsets/ref_utf_symbols.asp
-        --> 
- <header class="varLabel"> 
-  <h1>Variable</h1> 
- </header> 
- <header class="varValue"> 
-  <h1>Increment by 1</h1> 
- </header> 
- <section> 
-  <div class="mycode">
-   <div class=simpleCode>var += 1;</div>
-  </div> 
-  <div class="description">
-   Increment one of <br>your var by 1.
-  </div> 
-  <div class="comment">
-   42 here we come!
-  </div> 
- </section> 
- <footer> 
-  <span class="vars">&nbsp;</span> 
-  <span class="rounds">&nbsp;</span> 
- </footer> 
-</div></td><td><div class="card value"> 
- <!--
-            Some value for the CSS
-
-           type: attack, defense, bonus, value
-           stack: <empty>, all, one
-           rounds: <empty>, two, unlimited
-
-           https://www.w3schools.com/charsets/ref_utf_symbols.asp
-        --> 
- <header class="varLabel"> 
-  <h1>Variable</h1> 
- </header> 
- <header class="varValue"> 
-  <h1>Increment by 1</h1> 
- </header> 
- <section> 
-  <div class="mycode">
-   <div class=simpleCode>var += 1;</div>
-  </div> 
-  <div class="description">
-   Increment one of <br>your var by 1.
-  </div> 
-  <div class="comment">
-   42 here we come!
-  </div> 
- </section> 
- <footer> 
-  <span class="vars">&nbsp;</span> 
-  <span class="rounds">&nbsp;</span> 
- </footer> 
-</div></td><td><div class="card value"> 
- <!--
-            Some value for the CSS
-
-           type: attack, defense, bonus, value
-           stack: <empty>, all, one
-           rounds: <empty>, two, unlimited
-
-           https://www.w3schools.com/charsets/ref_utf_symbols.asp
-        --> 
- <header class="varLabel"> 
-  <h1>Variable</h1> 
- </header> 
- <header class="varValue"> 
-  <h1>Increment by 1</h1> 
- </header> 
- <section> 
-  <div class="mycode">
-   <div class=simpleCode>var += 1;</div>
-  </div> 
-  <div class="description">
-   Increment one of <br>your var by 1.
-  </div> 
-  <div class="comment">
-   42 here we come!
-  </div> 
- </section> 
- <footer> 
-  <span class="vars">&nbsp;</span> 
-  <span class="rounds">&nbsp;</span> 
- </footer> 
 </div></td></tr></table><table class="page"><tr><td><div class="card value"> 
  <!--
             Some value for the CSS
@@ -1858,17 +1858,17 @@ table.page td {
   <h1>Variable</h1> 
  </header> 
  <header class="varValue"> 
-  <h1>Increment by 2</h1> 
+  <h1>Increment by 1</h1> 
  </header> 
  <section> 
   <div class="mycode">
-   <div class=simpleCode>var += 2;</div>
+   <div class=simpleCode>var += 1;</div>
   </div> 
   <div class="description">
-   Increment one of <br>your var by 2.
+   Increment one of <br>your var by 1.
   </div> 
   <div class="comment">
-   
+   42 here we come!
   </div> 
  </section> 
  <footer> 
@@ -1889,17 +1889,17 @@ table.page td {
   <h1>Variable</h1> 
  </header> 
  <header class="varValue"> 
-  <h1>Increment by 2</h1> 
+  <h1>Increment by 1</h1> 
  </header> 
  <section> 
   <div class="mycode">
-   <div class=simpleCode>var += 2;</div>
+   <div class=simpleCode>var += 1;</div>
   </div> 
   <div class="description">
-   Increment one of <br>your var by 2.
+   Increment one of <br>your var by 1.
   </div> 
   <div class="comment">
-   
+   42 here we come!
   </div> 
  </section> 
  <footer> 
@@ -1920,17 +1920,17 @@ table.page td {
   <h1>Variable</h1> 
  </header> 
  <header class="varValue"> 
-  <h1>Increment by 2</h1> 
+  <h1>Increment by 1</h1> 
  </header> 
  <section> 
   <div class="mycode">
-   <div class=simpleCode>var += 2;</div>
+   <div class=simpleCode>var += 1;</div>
   </div> 
   <div class="description">
-   Increment one of <br>your var by 2.
+   Increment one of <br>your var by 1.
   </div> 
   <div class="comment">
-   
+   42 here we come!
   </div> 
  </section> 
  <footer> 
@@ -1951,17 +1951,17 @@ table.page td {
   <h1>Variable</h1> 
  </header> 
  <header class="varValue"> 
-  <h1>Increment by 2</h1> 
+  <h1>Increment by 1</h1> 
  </header> 
  <section> 
   <div class="mycode">
-   <div class=simpleCode>var += 2;</div>
+   <div class=simpleCode>var += 1;</div>
   </div> 
   <div class="description">
-   Increment one of <br>your var by 2.
+   Increment one of <br>your var by 1.
   </div> 
   <div class="comment">
-   
+   42 here we come!
   </div> 
  </section> 
  <footer> 
@@ -2168,14 +2168,14 @@ table.page td {
   <h1>Variable</h1> 
  </header> 
  <header class="varValue"> 
-  <h1>Increment by 3</h1> 
+  <h1>Increment by 2</h1> 
  </header> 
  <section> 
   <div class="mycode">
-   <div class=simpleCode>var += 3;</div>
+   <div class=simpleCode>var += 2;</div>
   </div> 
   <div class="description">
-   Increment one of <br>your var by 3.
+   Increment one of <br>your var by 2.
   </div> 
   <div class="comment">
    
@@ -2199,14 +2199,14 @@ table.page td {
   <h1>Variable</h1> 
  </header> 
  <header class="varValue"> 
-  <h1>Increment by 3</h1> 
+  <h1>Increment by 2</h1> 
  </header> 
  <section> 
   <div class="mycode">
-   <div class=simpleCode>var += 3;</div>
+   <div class=simpleCode>var += 2;</div>
   </div> 
   <div class="description">
-   Increment one of <br>your var by 3.
+   Increment one of <br>your var by 2.
   </div> 
   <div class="comment">
    
@@ -2230,14 +2230,14 @@ table.page td {
   <h1>Variable</h1> 
  </header> 
  <header class="varValue"> 
-  <h1>Increment by 3</h1> 
+  <h1>Increment by 2</h1> 
  </header> 
  <section> 
   <div class="mycode">
-   <div class=simpleCode>var += 3;</div>
+   <div class=simpleCode>var += 2;</div>
   </div> 
   <div class="description">
-   Increment one of <br>your var by 3.
+   Increment one of <br>your var by 2.
   </div> 
   <div class="comment">
    
@@ -2261,14 +2261,14 @@ table.page td {
   <h1>Variable</h1> 
  </header> 
  <header class="varValue"> 
-  <h1>Increment by 3</h1> 
+  <h1>Increment by 2</h1> 
  </header> 
  <section> 
   <div class="mycode">
-   <div class=simpleCode>var += 3;</div>
+   <div class=simpleCode>var += 2;</div>
   </div> 
   <div class="description">
-   Increment one of <br>your var by 3.
+   Increment one of <br>your var by 2.
   </div> 
   <div class="comment">
    
@@ -2478,14 +2478,14 @@ table.page td {
   <h1>Variable</h1> 
  </header> 
  <header class="varValue"> 
-  <h1>Increment by 5</h1> 
+  <h1>Increment by 3</h1> 
  </header> 
  <section> 
   <div class="mycode">
-   <div class=simpleCode>var += 5;</div>
+   <div class=simpleCode>var += 3;</div>
   </div> 
   <div class="description">
-   Increment one of <br>your var by 5.
+   Increment one of <br>your var by 3.
   </div> 
   <div class="comment">
    
@@ -2509,14 +2509,14 @@ table.page td {
   <h1>Variable</h1> 
  </header> 
  <header class="varValue"> 
-  <h1>Increment by 5</h1> 
+  <h1>Increment by 3</h1> 
  </header> 
  <section> 
   <div class="mycode">
-   <div class=simpleCode>var += 5;</div>
+   <div class=simpleCode>var += 3;</div>
   </div> 
   <div class="description">
-   Increment one of <br>your var by 5.
+   Increment one of <br>your var by 3.
   </div> 
   <div class="comment">
    
@@ -2540,14 +2540,14 @@ table.page td {
   <h1>Variable</h1> 
  </header> 
  <header class="varValue"> 
-  <h1>Increment by 5</h1> 
+  <h1>Increment by 3</h1> 
  </header> 
  <section> 
   <div class="mycode">
-   <div class=simpleCode>var += 5;</div>
+   <div class=simpleCode>var += 3;</div>
   </div> 
   <div class="description">
-   Increment one of <br>your var by 5.
+   Increment one of <br>your var by 3.
   </div> 
   <div class="comment">
    
@@ -2571,14 +2571,14 @@ table.page td {
   <h1>Variable</h1> 
  </header> 
  <header class="varValue"> 
-  <h1>Increment by 5</h1> 
+  <h1>Increment by 3</h1> 
  </header> 
  <section> 
   <div class="mycode">
-   <div class=simpleCode>var += 5;</div>
+   <div class=simpleCode>var += 3;</div>
   </div> 
   <div class="description">
-   Increment one of <br>your var by 5.
+   Increment one of <br>your var by 3.
   </div> 
   <div class="comment">
    
@@ -2620,6 +2620,130 @@ table.page td {
   <span class="rounds">&nbsp;</span> 
  </footer> 
 </div></td></tr><tr><td><div class="card value"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header class="varLabel"> 
+  <h1>Variable</h1> 
+ </header> 
+ <header class="varValue"> 
+  <h1>Increment by 5</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   <div class=simpleCode>var += 5;</div>
+  </div> 
+  <div class="description">
+   Increment one of <br>your var by 5.
+  </div> 
+  <div class="comment">
+   
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
+</div></td><td><div class="card value"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header class="varLabel"> 
+  <h1>Variable</h1> 
+ </header> 
+ <header class="varValue"> 
+  <h1>Increment by 5</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   <div class=simpleCode>var += 5;</div>
+  </div> 
+  <div class="description">
+   Increment one of <br>your var by 5.
+  </div> 
+  <div class="comment">
+   
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
+</div></td><td><div class="card value"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header class="varLabel"> 
+  <h1>Variable</h1> 
+ </header> 
+ <header class="varValue"> 
+  <h1>Increment by 5</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   <div class=simpleCode>var += 5;</div>
+  </div> 
+  <div class="description">
+   Increment one of <br>your var by 5.
+  </div> 
+  <div class="comment">
+   
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
+</div></td><td><div class="card value"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header class="varLabel"> 
+  <h1>Variable</h1> 
+ </header> 
+ <header class="varValue"> 
+  <h1>Increment by 5</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   <div class=simpleCode>var += 5;</div>
+  </div> 
+  <div class="description">
+   Increment one of <br>your var by 5.
+  </div> 
+  <div class="comment">
+   
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
+</div></td></tr></table><table class="page"><tr><td><div class="card value"> 
  <!--
             Some value for the CSS
 
@@ -2743,6 +2867,130 @@ table.page td {
   <span class="vars">&nbsp;</span> 
   <span class="rounds">&nbsp;</span> 
  </footer> 
+</div></td></tr><tr><td><div class="card value"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header class="varLabel"> 
+  <h1>Variable</h1> 
+ </header> 
+ <header class="varValue"> 
+  <h1>Increment by 8</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   <div class=simpleCode>var += 8;</div>
+  </div> 
+  <div class="description">
+   Increment one of <br>your var by 8.
+  </div> 
+  <div class="comment">
+   
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
+</div></td><td><div class="card value"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header class="varLabel"> 
+  <h1>Variable</h1> 
+ </header> 
+ <header class="varValue"> 
+  <h1>Increment by 8</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   <div class=simpleCode>var += 8;</div>
+  </div> 
+  <div class="description">
+   Increment one of <br>your var by 8.
+  </div> 
+  <div class="comment">
+   
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
+</div></td><td><div class="card value"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header class="varLabel"> 
+  <h1>Variable</h1> 
+ </header> 
+ <header class="varValue"> 
+  <h1>Increment by 8</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   <div class=simpleCode>var += 8;</div>
+  </div> 
+  <div class="description">
+   Increment one of <br>your var by 8.
+  </div> 
+  <div class="comment">
+   
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
+</div></td><td><div class="card value"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header class="varLabel"> 
+  <h1>Variable</h1> 
+ </header> 
+ <header class="varValue"> 
+  <h1>Decrement by 1</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   <div class=simpleCode>var -= 1;</div>
+  </div> 
+  <div class="description">
+   Decrement one of <br>your var by 1.
+  </div> 
+  <div class="comment">
+   
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
 </div></td></tr></table><table class="page"><tr><td><div class="card value"> 
  <!--
             Some value for the CSS
@@ -2757,14 +3005,14 @@ table.page td {
   <h1>Variable</h1> 
  </header> 
  <header class="varValue"> 
-  <h1>Increment by 8</h1> 
+  <h1>Decrement by 1</h1> 
  </header> 
  <section> 
   <div class="mycode">
-   <div class=simpleCode>var += 8;</div>
+   <div class=simpleCode>var -= 1;</div>
   </div> 
   <div class="description">
-   Increment one of <br>your var by 8.
+   Decrement one of <br>your var by 1.
   </div> 
   <div class="comment">
    
@@ -2788,14 +3036,14 @@ table.page td {
   <h1>Variable</h1> 
  </header> 
  <header class="varValue"> 
-  <h1>Increment by 8</h1> 
+  <h1>Decrement by 1</h1> 
  </header> 
  <section> 
   <div class="mycode">
-   <div class=simpleCode>var += 8;</div>
+   <div class=simpleCode>var -= 1;</div>
   </div> 
   <div class="description">
-   Increment one of <br>your var by 8.
+   Decrement one of <br>your var by 1.
   </div> 
   <div class="comment">
    
@@ -2819,14 +3067,14 @@ table.page td {
   <h1>Variable</h1> 
  </header> 
  <header class="varValue"> 
-  <h1>Increment by 8</h1> 
+  <h1>Decrement by 1</h1> 
  </header> 
  <section> 
   <div class="mycode">
-   <div class=simpleCode>var += 8;</div>
+   <div class=simpleCode>var -= 1;</div>
   </div> 
   <div class="description">
-   Increment one of <br>your var by 8.
+   Decrement one of <br>your var by 1.
   </div> 
   <div class="comment">
    
@@ -2868,130 +3116,6 @@ table.page td {
   <span class="rounds">&nbsp;</span> 
  </footer> 
 </div></td></tr><tr><td><div class="card value"> 
- <!--
-            Some value for the CSS
-
-           type: attack, defense, bonus, value
-           stack: <empty>, all, one
-           rounds: <empty>, two, unlimited
-
-           https://www.w3schools.com/charsets/ref_utf_symbols.asp
-        --> 
- <header class="varLabel"> 
-  <h1>Variable</h1> 
- </header> 
- <header class="varValue"> 
-  <h1>Decrement by 1</h1> 
- </header> 
- <section> 
-  <div class="mycode">
-   <div class=simpleCode>var -= 1;</div>
-  </div> 
-  <div class="description">
-   Decrement one of <br>your var by 1.
-  </div> 
-  <div class="comment">
-   
-  </div> 
- </section> 
- <footer> 
-  <span class="vars">&nbsp;</span> 
-  <span class="rounds">&nbsp;</span> 
- </footer> 
-</div></td><td><div class="card value"> 
- <!--
-            Some value for the CSS
-
-           type: attack, defense, bonus, value
-           stack: <empty>, all, one
-           rounds: <empty>, two, unlimited
-
-           https://www.w3schools.com/charsets/ref_utf_symbols.asp
-        --> 
- <header class="varLabel"> 
-  <h1>Variable</h1> 
- </header> 
- <header class="varValue"> 
-  <h1>Decrement by 1</h1> 
- </header> 
- <section> 
-  <div class="mycode">
-   <div class=simpleCode>var -= 1;</div>
-  </div> 
-  <div class="description">
-   Decrement one of <br>your var by 1.
-  </div> 
-  <div class="comment">
-   
-  </div> 
- </section> 
- <footer> 
-  <span class="vars">&nbsp;</span> 
-  <span class="rounds">&nbsp;</span> 
- </footer> 
-</div></td><td><div class="card value"> 
- <!--
-            Some value for the CSS
-
-           type: attack, defense, bonus, value
-           stack: <empty>, all, one
-           rounds: <empty>, two, unlimited
-
-           https://www.w3schools.com/charsets/ref_utf_symbols.asp
-        --> 
- <header class="varLabel"> 
-  <h1>Variable</h1> 
- </header> 
- <header class="varValue"> 
-  <h1>Decrement by 1</h1> 
- </header> 
- <section> 
-  <div class="mycode">
-   <div class=simpleCode>var -= 1;</div>
-  </div> 
-  <div class="description">
-   Decrement one of <br>your var by 1.
-  </div> 
-  <div class="comment">
-   
-  </div> 
- </section> 
- <footer> 
-  <span class="vars">&nbsp;</span> 
-  <span class="rounds">&nbsp;</span> 
- </footer> 
-</div></td><td><div class="card value"> 
- <!--
-            Some value for the CSS
-
-           type: attack, defense, bonus, value
-           stack: <empty>, all, one
-           rounds: <empty>, two, unlimited
-
-           https://www.w3schools.com/charsets/ref_utf_symbols.asp
-        --> 
- <header class="varLabel"> 
-  <h1>Variable</h1> 
- </header> 
- <header class="varValue"> 
-  <h1>Decrement by 1</h1> 
- </header> 
- <section> 
-  <div class="mycode">
-   <div class=simpleCode>var -= 1;</div>
-  </div> 
-  <div class="description">
-   Decrement one of <br>your var by 1.
-  </div> 
-  <div class="comment">
-   
-  </div> 
- </section> 
- <footer> 
-  <span class="vars">&nbsp;</span> 
-  <span class="rounds">&nbsp;</span> 
- </footer> 
-</div></td></tr></table><table class="page"><tr><td><div class="card value"> 
  <!--
             Some value for the CSS
 
@@ -3115,7 +3239,7 @@ table.page td {
   <span class="vars">&nbsp;</span> 
   <span class="rounds">&nbsp;</span> 
  </footer> 
-</div></td></tr><tr><td><div class="card value"> 
+</div></td></tr></table><table class="page"><tr><td><div class="card value"> 
  <!--
             Some value for the CSS
 
@@ -3239,7 +3363,7 @@ table.page td {
   <span class="vars">&nbsp;</span> 
   <span class="rounds">&nbsp;</span> 
  </footer> 
-</div></td></tr></table><table class="page"><tr><td><div class="card value"> 
+</div></td></tr><tr><td><div class="card value"> 
  <!--
             Some value for the CSS
 
@@ -3354,130 +3478,6 @@ table.page td {
   </div> 
   <div class="description">
    The next yellow card is valued as many times as there are players.
-  </div> 
-  <div class="comment">
-   
-  </div> 
- </section> 
- <footer> 
-  <span class="vars">&nbsp;</span> 
-  <span class="rounds">&nbsp;</span> 
- </footer> 
-</div></td></tr><tr><td><div class="card other"> 
- <!--
-            Some value for the CSS
-
-           type: attack, defense, bonus, value
-           stack: <empty>, all, one
-           rounds: <empty>, two, unlimited
-
-           https://www.w3schools.com/charsets/ref_utf_symbols.asp
-        --> 
- <header class="varLabel"> 
-  <h1>Variable</h1> 
- </header> 
- <header class="varValue"> 
-  <h1>A</h1> 
- </header> 
- <section> 
-  <div class="mycode">
-   
-  </div> 
-  <div class="description">
-   
-  </div> 
-  <div class="comment">
-   
-  </div> 
- </section> 
- <footer> 
-  <span class="vars">&nbsp;</span> 
-  <span class="rounds">&nbsp;</span> 
- </footer> 
-</div></td><td><div class="card other"> 
- <!--
-            Some value for the CSS
-
-           type: attack, defense, bonus, value
-           stack: <empty>, all, one
-           rounds: <empty>, two, unlimited
-
-           https://www.w3schools.com/charsets/ref_utf_symbols.asp
-        --> 
- <header class="varLabel"> 
-  <h1>Variable</h1> 
- </header> 
- <header class="varValue"> 
-  <h1>B</h1> 
- </header> 
- <section> 
-  <div class="mycode">
-   
-  </div> 
-  <div class="description">
-   
-  </div> 
-  <div class="comment">
-   
-  </div> 
- </section> 
- <footer> 
-  <span class="vars">&nbsp;</span> 
-  <span class="rounds">&nbsp;</span> 
- </footer> 
-</div></td><td><div class="card other"> 
- <!--
-            Some value for the CSS
-
-           type: attack, defense, bonus, value
-           stack: <empty>, all, one
-           rounds: <empty>, two, unlimited
-
-           https://www.w3schools.com/charsets/ref_utf_symbols.asp
-        --> 
- <header class="varLabel"> 
-  <h1>Variable</h1> 
- </header> 
- <header class="varValue"> 
-  <h1>A</h1> 
- </header> 
- <section> 
-  <div class="mycode">
-   
-  </div> 
-  <div class="description">
-   
-  </div> 
-  <div class="comment">
-   
-  </div> 
- </section> 
- <footer> 
-  <span class="vars">&nbsp;</span> 
-  <span class="rounds">&nbsp;</span> 
- </footer> 
-</div></td><td><div class="card other"> 
- <!--
-            Some value for the CSS
-
-           type: attack, defense, bonus, value
-           stack: <empty>, all, one
-           rounds: <empty>, two, unlimited
-
-           https://www.w3schools.com/charsets/ref_utf_symbols.asp
-        --> 
- <header class="varLabel"> 
-  <h1>Variable</h1> 
- </header> 
- <header class="varValue"> 
-  <h1>B</h1> 
- </header> 
- <section> 
-  <div class="mycode">
-   
-  </div> 
-  <div class="description">
-   
   </div> 
   <div class="comment">
    
@@ -3735,4 +3735,128 @@ table.page td {
   <span class="vars">&nbsp;</span> 
   <span class="rounds">&nbsp;</span> 
  </footer> 
-</div></td></tr></table></body></html>
+</div></td></tr></table><table class="page"><tr><td><div class="card other"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header class="varLabel"> 
+  <h1>Variable</h1> 
+ </header> 
+ <header class="varValue"> 
+  <h1>A</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   
+  </div> 
+  <div class="description">
+   
+  </div> 
+  <div class="comment">
+   
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
+</div></td><td><div class="card other"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header class="varLabel"> 
+  <h1>Variable</h1> 
+ </header> 
+ <header class="varValue"> 
+  <h1>B</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   
+  </div> 
+  <div class="description">
+   
+  </div> 
+  <div class="comment">
+   
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
+</div></td><td><div class="card other"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header class="varLabel"> 
+  <h1>Variable</h1> 
+ </header> 
+ <header class="varValue"> 
+  <h1>A</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   
+  </div> 
+  <div class="description">
+   
+  </div> 
+  <div class="comment">
+   
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
+</div></td><td><div class="card other"> 
+ <!--
+            Some value for the CSS
+
+           type: attack, defense, bonus, value
+           stack: <empty>, all, one
+           rounds: <empty>, two, unlimited
+
+           https://www.w3schools.com/charsets/ref_utf_symbols.asp
+        --> 
+ <header class="varLabel"> 
+  <h1>Variable</h1> 
+ </header> 
+ <header class="varValue"> 
+  <h1>B</h1> 
+ </header> 
+ <section> 
+  <div class="mycode">
+   
+  </div> 
+  <div class="description">
+   
+  </div> 
+  <div class="comment">
+   
+  </div> 
+ </section> 
+ <footer> 
+  <span class="vars">&nbsp;</span> 
+  <span class="rounds">&nbsp;</span> 
+ </footer> 
+</div></td></tr><tr></tr></table></body></html>

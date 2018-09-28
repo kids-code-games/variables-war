@@ -19,6 +19,8 @@ attack;Condition;"if (varB &lt; varA) {<br>&nbsp;&nbsp;cancelCard();<br>}";"Forb
 attack;Condition;"if (varB &lt; varA) {<br>&nbsp;&nbsp;cancelCard();<br>}";"Forbids any card that <br>is not helping to fix this.";"&#10063;&#10063;";"&#9850;";
 attack;Memory Leak;"if (var % 3 == 0) {<br>&nbsp;&nbsp;var = 0;<br>}";Reset to 0 the var if its values is a multiple of 3.;"&#10063;";"&#9850;";
 attack;Memory Leak;"if (var % 3 == 0) {<br>&nbsp;&nbsp;var = 0;<br>}";Reset to 0 the var if its values is a multiple of 3.;"&#10063;";"&#9850;";
+attack;Deadline;;"Remove a Test Harness<br>&nbsp;";"&#10063;";;"Just do it quick & dirty"
+attack;Deadline;;"Remove a Test Harness<br>&nbsp;";"&#10063;";;"Just do it quick & dirty"
 defense;Rollback;;Remove last card put on the selected game.;;;"We know, we know, life is unfair, thanks Calimero!"
 defense;Rollback;;Remove last card put on the selected game.;;;"We know, we know, life is unfair, thanks Calimero!"
 defense;Rollback;;Remove last card put on the selected game.;;;"We know, we know, life is unfair, thanks Calimero!"
@@ -33,6 +35,8 @@ defense;Refactoring;;Remove a <br>"Legacy code" or "Condition" card.;;;"Cheers!"
 defense;Refactoring;;Remove a <br>"Legacy code" or "Condition" card.;;;"Cheers!"
 defense;Firewall;;"Return any attack<br>to its sender's game!";;;"No need to be sorry :)"
 defense;Firewall;;"Return any attack<br>to its sender's game!";;;"No need to be sorry :)"
+defense;Test Harness;"<div style='margin-top: -10px;'>expect(code)<br>&nbsp;&nbsp;.toBe(correct);</div>";"Limits value to -/+1 and -/+2 but forbids Memory Leak and Condition";"&#10063;";;;
+defense;Test Harness;"<div style='margin-top: -10px;'>expect(code)<br>&nbsp;&nbsp;.toBe(correct);</div>";"Limits value to -/+1 and -/+2 but forbids Memory Leak and Condition";"&#10063;";;;
 bonus;Pair programming;;<div style='margin-top: -30px'>Draw 3 cards with another player and agree on how to use them or discard everything!</div>;;;"Hey mate!"
 bonus;Pair programming;;<div style='margin-top: -30px'>Draw 3 cards with another player and agree on how to use them or discard everything!</div>;;;"Hey mate!"
 bonus;Pair programming;;<div style='margin-top: -30px'>Draw 3 cards with another player and agree on how to use them or discard everything!</div>;;;"Hey mate!"
